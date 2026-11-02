@@ -12,9 +12,10 @@ from repo2mini.pricing import PRICES, run_cost  # noqa: E402
 OUT = ROOT / "results" / "analyze"
 OUT.mkdir(parents=True, exist_ok=True)
 rows = []
+EXCLUDE = [m for m in __import__("os").environ.get("EXCLUDE_MODELS", "").split(",") if m]
 for f in (ROOT / "results/run_task/runs").glob("*/result.json"):
     r = json.loads(f.read_text())
-    if r["task"] == "mini_autograd" or r["model"] not in PRICES:
+    if r["task"] == "mini_autograd" or r["model"] not in PRICES or r["model"] in EXCLUDE:
         continue
     rows.append(dict(run_id=r["run_id"], model=r["model"], effort=r.get("effort") or "default", task=r["task"], level=r["level"],
                      setting=("bug fix" if "__fix" in r["task"] else ("agentic" if r["level"] == "AG" else ("long context" if r["level"] in ("XL", "XXL") else "write"))),

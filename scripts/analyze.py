@@ -15,6 +15,8 @@ OUT.mkdir(parents=True, exist_ok=True)
 rows = [json.loads(l) for l in (ROOT / "results" / "run_task" / "rows.jsonl").read_text().splitlines() if l.strip()]
 df = pd.DataFrame(rows)
 df = df[~df["task"].isin(["mini_autograd"])]
+EXCLUDE = [m for m in __import__("os").environ.get("EXCLUDE_MODELS", "").split(",") if m]
+df = df[~df["model"].isin(EXCLUDE)]
 df["familiarity"] = df["task"].map(lambda t: load_task(t).meta.get("familiarity", "?"))
 df["effort"] = df["effort"].fillna("default")
 for cat in ("api", "parity", "behavior"):

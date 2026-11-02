@@ -17,12 +17,14 @@ OUT = ROOT / "results" / "make_report"
 OUT.mkdir(parents=True, exist_ok=True)
 df = pd.DataFrame([json.loads(l) for l in (ROOT / "results/run_task/rows.jsonl").read_text().splitlines() if l.strip()])
 df = df[df.task != "mini_autograd"].copy()
+EXCLUDE = [m for m in __import__("os").environ.get("EXCLUDE_MODELS", "").split(",") if m]
+df = df[~df.model.isin(EXCLUDE)].copy()
 df["effort"] = df.effort.fillna("default")
 df["is_fix"] = df.task.str.contains("__fix")
 df["base"] = df.task.str.replace(r"__fix\d", "", regex=True)
 df["success"] = df.success.astype(float)
 
-MODELS = ["beam", "gpt41", "gpt52", "gpt6astra", "nemotron"]
+MODELS = [m for m in ["beam", "gpt41", "gpt52", "gpt6astra", "nemotron"] if m not in EXCLUDE]
 LABEL = {"beam": "Beam", "gpt41": "GPT-4.1", "gpt52": "GPT-5.2", "gpt6astra": "GPT-6 Astra", "nemotron": "Nemotron 3 Ultra"}
 COLOR = {"beam": "#d1495b", "gpt41": "#8d99ae", "gpt52": "#3d5a80", "gpt6astra": "#2a9d8f", "nemotron": "#e9a03b"}
 LEVEL_NAME = {"L0": "L0\nno repo text", "L2": "L2\nrelevant files", "L5": "L5\nbroad slice", "XL": "240K token\nhaystack", "XXL": "600K token\nhaystack", "AG": "Agentic tools"}
@@ -67,7 +69,7 @@ a1.set_ylim(0.2, 1.08)
 a1.set_ylabel("Mean hidden pass rate (best effort per task and level)")
 a1.set_title("More repo context: pass rate by level", loc="left", weight="bold")
 a1.grid(axis="y", alpha=0.25)
-fig.text(0.01, 0.015, "Band: standard error over tasks, each task counts equally. 600K tokens ran for Beam only. Nemotron ran L0 and L2 only (free tier). Aggregation differs slightly from the README tables, which pool runs.", fontsize=8.5, color="#666")
+fig.text(0.01, 0.015, "Band: standard error over tasks, each task counts equally. 600K tokens ran for Beam only. " + ("Nemotron ran L0 and L2 only (free tier). " if "nemotron" in MODELS else "") + "Aggregation differs slightly from the README tables, which pool runs.", fontsize=8.5, color="#666")
 
 others = [("Agentic tools", best[(best.level == "AG") & ~best.is_fix]), ("Bug fix L0", best[best.is_fix & (best.level == "L0")]),
           ("Bug fix L2", best[best.is_fix & (best.level == "L2")])]

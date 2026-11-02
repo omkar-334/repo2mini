@@ -60,3 +60,5 @@
 * Posted the entry in discussion #5 (comment id 6ae8bfe04238b36306e97f3f), text in `results/discussion5/my_post.md`.
 * Added a quality per dollar table (points per dollar and cost per fully passing run, all four settings, including where Beam is not best) to the README and republished.
 * Added scripts/make_report.py: best variant per model chart (context levels plus agentic and bug fix panels) and per task side by side model tables, now used by the static page instead of the old chart and All cells table. Edited the discussion #5 comment to add the quality per dollar table.
+* Added a conclusion to the discussion #5 comment. Staged the GitHub repo (committed locally in the scratchpad), public repo creation not yet done.
+* Published https://github.com/omkar-334/repo2mini (public, hidden tests and reference solutions withheld) and linked it from the discussion comment and the Space.

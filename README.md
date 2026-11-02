@@ -90,7 +90,7 @@ Model aliases are in `src/repo2mini/providers.py` (`beam`, `gpt41`, `gpt52`, `gp
 | `rescore.py`, `rescore_parse.py`, `rescore_all.py` | Rescore saved solutions after a test or parser fix, without calling any model |
 | `rerun_failed.py`, `rerun_errors.py` | Rerun cells that failed with transient or protocol errors |
 | `analyze.py`, `costs.py`, `make_report.py` | Tables, cost metrics, best variant chart and per task comparison |
-| `build_space.py`, `build_static_page.py` | Build the publishable bundle (no hidden tests, secret scan) and the static page |
+| `build_space.py`, `build_static_page.py` | Build the publishable bundle (no hidden tests, secret scan) and the static page. Set `EXCLUDE_MODELS=nemotron` for analyze, costs, make_report and build_space to leave a model out, as the published Space and dataset do (Nemotron had too little data) |
 | `make_fix_tasks.py` | Generate bug fix variants (needs private references) |
 | `fetch_repos.sh` | Pinned sparse clones of the source repositories |
 

@@ -11,12 +11,15 @@ space, data = OUT / "space", OUT / "dataset"
 for d in (space, data):
     d.mkdir(parents=True)
 
+EXCLUDE = [m for m in __import__("os").environ.get("EXCLUDE_MODELS", "").split(",") if m]
+
 # ---- results shared by both bundles (no hidden tests)
 def copy_results(dst: Path):
     r = dst / "results" / "run_task"
     r.mkdir(parents=True)
-    shutil.copy(ROOT / "results/run_task/rows.jsonl", r / "rows.jsonl")
-    shutil.copytree(ROOT / "results/run_task/runs", r / "runs", ignore=shutil.ignore_patterns("__pycache__", "messages.jsonl"))
+    keep = [l for l in (ROOT / "results/run_task/rows.jsonl").read_text().splitlines() if l.strip() and json.loads(l).get("model") not in EXCLUDE]
+    (r / "rows.jsonl").write_text("\n".join(keep) + "\n")
+    shutil.copytree(ROOT / "results/run_task/runs", r / "runs", ignore=lambda d, names: [n for n in names if n in ("__pycache__", "messages.jsonl") or any(f"-{m}-" in n for m in EXCLUDE)])
     shutil.copytree(ROOT / "results/analyze", dst / "results" / "analyze")
     for rj in (r / "runs").glob("*/result.json"):  # tracebacks can quote hidden test lines
         d = json.loads(rj.read_text())
