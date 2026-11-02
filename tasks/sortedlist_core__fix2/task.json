@@ -1,0 +1,27 @@
+{
+ "id": "sortedlist_core__fix2",
+ "title": "Fix a bug in Mini SortedList",
+ "repo": "sortedcontainers",
+ "familiarity": "less known",
+ "context": {
+  "L2": [
+   "src/sortedcontainers/sortedlist.py"
+  ],
+  "L5": [
+   "src/sortedcontainers/sortedlist.py",
+   "src/sortedcontainers/__init__.py",
+   "src/sortedcontainers/sortedset.py",
+   "src/sortedcontainers/sorteddict.py",
+   "tests/test_coverage_sortedlist.py",
+   "tests/test_stress_sortedlist.py",
+   "docs/introduction.rst",
+   "docs/sortedlist.rst",
+   "docs/implementation.rst",
+   "docs/performance.rst",
+   "README.rst",
+   "HISTORY.rst"
+  ]
+ },
+ "fix_of": "sortedlist_core",
+ "bug": 2
+}

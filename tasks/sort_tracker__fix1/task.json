@@ -1,0 +1,33 @@
+{
+ "id": "sort_tracker__fix1",
+ "title": "Fix a bug in Mini SORT tracker",
+ "repo": "trackers",
+ "familiarity": "less known",
+ "context": {
+  "L2": [
+   "src/trackers/core/sort/tracker.py",
+   "src/trackers/core/sort/tracklet.py",
+   "src/trackers/core/sort/utils.py",
+   "src/trackers/core/base.py",
+   "src/trackers/utils/base_tracklet.py"
+  ],
+  "L5": [
+   "src/trackers/core/sort/tracker.py",
+   "src/trackers/core/sort/tracklet.py",
+   "src/trackers/core/sort/utils.py",
+   "src/trackers/core/base.py",
+   "src/trackers/utils/base_tracklet.py",
+   "src/trackers/utils/detections.py",
+   "src/trackers/utils/iou.py",
+   "src/trackers/utils/kalman_filter.py",
+   "src/trackers/utils/state_representations.py",
+   "src/trackers/core/bytetrack/tracker.py",
+   "src/trackers/core/bytetrack/tracklet.py",
+   "src/trackers/core/ocsort/tracker.py",
+   "src/trackers/core/ocsort/tracklet.py",
+   "README.md"
+  ]
+ },
+ "fix_of": "sort_tracker",
+ "bug": 1
+}

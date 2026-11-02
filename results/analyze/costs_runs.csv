@@ -1,0 +1,550 @@
+run_id,model,effort,task,level,setting,pass_rate,success,cost_usd,prompt_tokens,completion_tokens
+sort_tracker-beam-L2-s1-low-96ec8c,beam,low,sort_tracker,L2,write,1.0,1.0,0.01004425,24165,4003
+sort_tracker__fix1-beam-L2-s1-low-676069,beam,low,sort_tracker__fix1,L2,bug fix,1.0,1.0,0.00530725,13217,2003
+numpy_quantile__fix2-gpt6astra-L0-s0-low-1fd9b0,gpt6astra,low,numpy_quantile__fix2,L0,bug fix,1.0,1.0,0.08421,2001,1284
+numpy_quantile__fix1-beam-L0-s0-low-e7f8ef,beam,low,numpy_quantile__fix1,L0,bug fix,1.0,1.0,0.00252875,2063,2013
+sortedlist_key-gpt6astra-L5-s0-low-3d7167,gpt6astra,low,sortedlist_key,L5,write,1.0,1.0,0.75306,57196,3622
+sort_tracker-gpt6astra-AG-s0-low-3c6e1c,gpt6astra,low,sort_tracker,AG,agentic,1.0,1.0,0.413378,95885,2124
+sort_tracker__fix2-beam-L2-s1-low-9f93fd,beam,low,sort_tracker__fix2,L2,bug fix,1.0,1.0,0.0047645,13194,1466
+sortedlist_core__fix1-beam-L2-s1-low-d19bde,beam,low,sortedlist_core__fix1,L2,bug fix,1.0,1.0,0.0189135,48138,6879
+numpy_quantile-gpt52-XL-s0-low-40e782,gpt52,low,numpy_quantile,XL,long context,0.5833,0.0,0.5174015,252410,5406
+sort_tracker__fix1-gpt6astra-L0-s1-low-eb21aa,gpt6astra,low,sort_tracker__fix1,L0,bug fix,1.0,1.0,0.063656,1929,1234
+sortedlist_core-gpt41-L2-s1-def-eaabd5,gpt41,default,sortedlist_core,L2,write,1.0,1.0,0.047458,18729,4730
+gpt2_forward-gpt41-L5-s2-def-e74464,gpt41,default,gpt2_forward,L5,write,0.9333,0.0,0.085544,115768,3423
+sort_tracker-gpt41-XL-s0-def-de5789,gpt41,default,sort_tracker,XL,long context,0.6471,0.0,0.466866,222057,2844
+sortedlist_core-gpt6astra-L5-s0-low-04df21,gpt6astra,low,sortedlist_core,L5,write,1.0,1.0,0.72672,56917,3151
+pandas_cut__fix2-gpt52-L0-s0-low-366810,gpt52,low,pandas_cut__fix2,L0,bug fix,0.5333,0.0,0.082047,4876,5251
+sort_tracker__fix1-gpt41-L0-s0-def-f0d18c,gpt41,default,sort_tracker__fix1,L0,bug fix,1.0,1.0,0.014828,1930,1371
+pandas_cut-gpt41-L2-s0-def-7f45b4,gpt41,default,pandas_cut,L2,write,0.4667,0.0,0.09247799999999999,27007,4808
+numpy_quantile__fix1-beam-L0-s1-low-7cb15b,beam,low,numpy_quantile__fix1,L0,bug fix,1.0,1.0,0.00199175,2063,1476
+sortedlist_core__fix1-gpt52-L2-s0-low-efb644,gpt52,low,sortedlist_core__fix1,L2,bug fix,1.0,1.0,0.0881139,21970,3850
+sortedlist_key-beam-XXL-s0-low-114b30,beam,low,sortedlist_key,XXL,long context,0.9545,0.0,0.33440075,1241547,24014
+numpy_quantile-gpt41-AG-s0-def-a184e6,gpt41,default,numpy_quantile,AG,agentic,0.25,0.0,0.091666,44449,5458
+numpy_quantile-gpt41-L5-s0-def-34fc6e,gpt41,default,numpy_quantile,L5,write,0.3333,0.0,0.2523,160066,1745
+sortedlist_core-beam-L0-s0-medium-5f749f,beam,medium,sortedlist_core,L0,write,0.92,0.0,0.01309275,8751,10905
+sort_tracker-gpt41-AG-s0-def-b3df35,gpt41,default,sort_tracker,AG,agentic,0.4706,0.0,0.12615,98291,2644
+pandas_cut-gpt6astra-AG-s0-low-fcbd2a,gpt6astra,low,pandas_cut,AG,agentic,1.0,1.0,0.144788,20416,1334
+numpy_quantile-gpt52-L5-s1-low-4c85a9,gpt52,low,numpy_quantile,L5,write,0.4167,0.0,0.09564975,160065,4752
+gpt2_generate__fix1-beam-L2-s0-low-846e9a,beam,low,gpt2_generate__fix1,L2,bug fix,1.0,1.0,0.0142465,46914,2518
+gpt2_forward-nemotron-L2-s0-low-83834e,nemotron,low,gpt2_forward,L2,write,1.0,1.0,0.0,19976,4468
+gpt2_forward__fix1-beam-L0-s0-low-21f6ee,beam,low,gpt2_forward__fix1,L0,bug fix,1.0,1.0,0.00282175,3163,2031
+pandas_cut-gpt6astra-L2-s0-low-f91e4e,gpt6astra,low,pandas_cut,L2,write,1.0,1.0,0.13172,7122,1210
+numpy_quantile__fix2-gpt41-L0-s0-def-af873c,gpt41,default,numpy_quantile__fix2,L0,bug fix,0.9583,0.0,0.017476,2002,1684
+gpt2_generate-gpt6astra-AG-s0-low-6b2024,gpt6astra,low,gpt2_generate,AG,agentic,1.0,1.0,0.16095,885,3042
+sortedlist_key-gpt6astra-XL-s0-low-f34a9b,gpt6astra,low,sortedlist_key,XL,long context,1.0,1.0,2.65185,246375,3762
+gpt2_forward-gpt41-L0-s0-def-0f61e7,gpt41,default,gpt2_forward,L0,write,0.5333,0.0,0.02378,494,2849
+sortedlist_core-beam-AG-s0-low-82375a,beam,low,sortedlist_core,AG,agentic,0.0,0.0,0.01146525,41505,1089
+pandas_cut-beam-L5-s0-low-cf3c08,beam,low,pandas_cut,L5,write,0.6667,0.0,0.06847400000000001,256836,4265
+sortedlist_core__fix1-gpt41-L0-s0-def-5f5b92,gpt41,default,sortedlist_core__fix1,L0,bug fix,1.0,1.0,0.032176,3784,3076
+gpt2_generate-beam-L0-s0-medium-39ac9e,beam,medium,gpt2_generate,L0,write,0.5625,0.0,0.00500575,755,4817
+sort_tracker-gpt41-AG-s0-def-80a770,gpt41,default,sort_tracker,AG,agentic,0.5294,0.0,0.117272,100124,2660
+sortedlist_key-gpt41-AG-s1-def-a58270,gpt41,default,sortedlist_key,AG,agentic,0.8182,0.0,0.209468,135254,11642
+gpt2_generate__fix1-gpt6astra-L2-s0-low-244c29,gpt6astra,low,gpt2_generate__fix1,L2,bug fix,1.0,1.0,0.56676,46901,1955
+pandas_cut__fix1-gpt6astra-L0-s0-low-b46d2a,gpt6astra,low,pandas_cut__fix1,L0,bug fix,1.0,1.0,0.06722,1722,1000
+gpt2_forward__fix2-gpt6astra-L2-s0-low-affde8,gpt6astra,low,gpt2_forward__fix2,L2,bug fix,1.0,1.0,0.31058,21283,1955
+numpy_quantile-gpt6astra-AG-s1-low-6f6003,gpt6astra,low,numpy_quantile,AG,agentic,1.0,1.0,0.211661,33438,1666
+sortedlist_key-beam-L2-s1-medium-fd0f39,beam,medium,sortedlist_key,L2,write,0.9545,0.0,0.0146785,18930,9946
+gpt2_forward-gpt52-L5-s1-low-ad370f,gpt52,low,gpt2_forward,L5,write,1.0,1.0,0.09761465,115767,5476
+sortedlist_key__fix2-beam-L0-s0-low-53a723,beam,low,sortedlist_key__fix2,L0,bug fix,0.9091,0.0,0.00594875,4311,4871
+pandas_cut__fix2-gpt52-L2-s0-low-b5f7cc,gpt52,low,pandas_cut__fix2,L2,bug fix,1.0,1.0,0.06152825,8367,3349
+numpy_quantile__fix2-gpt52-L0-s1-low-150cdb,gpt52,low,numpy_quantile__fix2,L0,bug fix,1.0,1.0,0.02498895,2001,1722
+sortedlist_key-gpt41-L2-s2-def-41b012,gpt41,default,sortedlist_key,L2,write,0.9545,0.0,0.163022,47199,17242
+sortedlist_key-beam-XL-s0-low-5be4d2,beam,low,sortedlist_key,XL,long context,0.9545,0.0,0.0720555,249910,9578
+sortedlist_core__fix1-gpt41-L0-s1-def-977bfd,gpt41,default,sortedlist_core__fix1,L0,bug fix,1.0,1.0,0.032208,3784,3080
+sort_tracker__fix2-gpt6astra-L0-s0-low-8297ab,gpt6astra,low,sort_tracker__fix2,L0,bug fix,1.0,1.0,0.08037,1917,1224
+sortedlist_key__fix2-beam-L0-s1-low-c6aa8e,beam,low,sortedlist_key__fix2,L0,bug fix,0.9091,0.0,0.00469175,4311,3614
+sort_tracker-gpt41-L5-s0-def-412518,gpt41,default,sort_tracker,L5,write,1.0,1.0,0.088074,42533,2584
+gpt2_generate__fix1-gpt52-L0-s0-low-b60bad,gpt52,low,gpt2_generate__fix1,L0,bug fix,1.0,1.0,0.0389655,3218,2381
+gpt2_forward__fix1-gpt41-L0-s0-def-ead3d9,gpt41,default,gpt2_forward__fix1,L0,bug fix,1.0,1.0,0.021804,3002,1975
+numpy_quantile__fix1-beam-L2-s0-low-45de12,beam,low,numpy_quantile__fix1,L2,bug fix,1.0,1.0,0.016927,58280,2357
+gpt2_forward-gpt41-L2-s0-def-a1afbe,gpt41,default,gpt2_forward,L2,write,0.8667,0.0,0.064194,18729,3342
+gpt2_generate__fix2-gpt41-L0-s1-def-e3fe74,gpt41,default,gpt2_generate__fix2,L0,bug fix,1.0,1.0,0.017354,2745,1963
+sortedlist_key-beam-L0-s1-low-0027b5,beam,low,sortedlist_key,L0,write,0.5909,0.0,0.00378625,853,3573
+gpt2_forward__fix1-gpt41-L2-s1-def-be3966,gpt41,default,gpt2_forward__fix1,L2,bug fix,1.0,1.0,0.058522,21237,2006
+sortedlist_key__fix2-gpt41-L2-s1-def-68d1f4,gpt41,default,sortedlist_key__fix2,L2,bug fix,0.9091,0.0,0.036572,22426,3141
+gpt2_generate__fix2-gpt6astra-L0-s1-low-c24b05,gpt6astra,low,gpt2_generate__fix2,L0,bug fix,1.0,1.0,0.100521,2744,1955
+numpy_quantile-gpt6astra-L2-s1-low-2ce658,gpt6astra,low,numpy_quantile,L2,write,1.0,1.0,0.121424,54747,1333
+gpt2_forward__fix1-gpt52-L2-s0-low-a358de,gpt52,low,gpt2_forward__fix1,L2,bug fix,1.0,1.0,0.0649754,21236,2289
+gpt2_forward__fix2-beam-L2-s0-low-0f053a,beam,low,gpt2_forward__fix2,L2,bug fix,1.0,1.0,0.0076225,21446,2261
+numpy_quantile__fix1-gpt41-L0-s1-def-4f8457,gpt41,default,numpy_quantile__fix1,L0,bug fix,1.0,1.0,0.012816,2028,1431
+pandas_cut__fix1-gpt52-L2-s1-low-a86bf4,gpt52,low,pandas_cut__fix1,L2,bug fix,1.0,1.0,0.0304514,8340,2011
+sortedlist_key__fix1-gpt52-L0-s1-low-65236f,gpt52,low,sortedlist_key__fix1,L0,bug fix,1.0,1.0,0.0741321,4046,5207
+pandas_cut__fix2-gpt41-L0-s0-def-6d9c6b,gpt41,default,pandas_cut__fix2,L0,bug fix,0.5333,0.0,0.01398,1750,1310
+numpy_quantile__fix2-gpt52-L0-s0-low-f9e969,gpt52,low,numpy_quantile__fix2,L0,bug fix,1.0,1.0,0.02469775,2001,1514
+gpt2_generate__fix2-gpt41-L0-s0-def-07d25b,gpt41,default,gpt2_generate__fix2,L0,bug fix,1.0,1.0,0.022586,2745,2137
+sortedlist_core-gpt41-AG-s1-def-1ec09d,gpt41,default,sortedlist_core,AG,agentic,0.92,0.0,0.157086,114971,5125
+gpt2_generate__fix1-gpt41-L2-s1-def-f77eb7,gpt41,default,gpt2_generate__fix1,L2,bug fix,0.9375,0.0,0.110172,46902,2046
+sortedlist_key__fix1-beam-L0-s1-low-f590f5,beam,low,sortedlist_key__fix1,L0,bug fix,0.8636,0.0,0.0063355,9574,3942
+gpt2_forward__fix2-gpt6astra-L0-s0-low-41b192,gpt6astra,low,gpt2_forward__fix2,L0,bug fix,1.0,1.0,0.12823,3048,1955
+gpt2_generate-beam-L0-s2-low-58a8b0,beam,low,gpt2_generate,L0,write,0.5625,0.0,0.0029555,754,2767
+gpt2_forward__fix1-gpt52-L2-s1-low-cc8c5d,gpt52,low,gpt2_forward__fix1,L2,bug fix,1.0,1.0,0.040117,21236,2587
+gpt2_generate__fix1-beam-L0-s0-low-5575fb,beam,low,gpt2_generate__fix1,L0,bug fix,1.0,1.0,0.0028695,3366,2028
+sortedlist_core__fix2-gpt6astra-L0-s0-low-faf646,gpt6astra,low,sortedlist_core__fix2,L0,bug fix,1.0,1.0,0.19289,3984,3061
+numpy_quantile-gpt41-XL-s0-def-6c0f77,gpt41,default,numpy_quantile,XL,long context,0.3333,0.0,0.523382,252411,2320
+gpt2_generate-gpt41-L5-s1-def-12a02b,gpt41,default,gpt2_generate,L5,write,0.6875,0.0,0.086342,115987,3516
+gpt2_forward__fix1-beam-L2-s1-low-c0d094,beam,low,gpt2_forward__fix1,L2,bug fix,1.0,1.0,0.00752825,21389,2181
+gpt2_generate-gpt41-L2-s2-def-14039a,gpt41,default,gpt2_generate,L2,write,0.625,0.0,0.052728,44396,3772
+pandas_cut-gpt41-AG-s0-def-2af509,gpt41,default,pandas_cut,AG,agentic,0.4667,0.0,0.01466,678,1663
+gpt2_generate__fix2-beam-L2-s0-low-8107f5,beam,low,gpt2_generate__fix2,L2,bug fix,1.0,1.0,0.01392225,46341,2337
+pandas_cut__fix1-gpt52-L0-s0-low-7b149a,gpt52,low,pandas_cut__fix1,L0,bug fix,0.5333,0.0,0.0760165,4742,4837
+gpt2_forward__fix1-gpt6astra-L0-s1-low-9716c9,gpt6astra,low,gpt2_forward__fix1,L0,bug fix,1.0,1.0,0.100778,3001,1955
+gpt2_forward-gpt41-XL-s0-def-07cb53,gpt41,default,gpt2_forward,XL,long context,0.6,0.0,0.445172,211078,2877
+sort_tracker__fix1-gpt52-L0-s1-low-e251a0,gpt52,low,sort_tracker__fix1,L0,bug fix,0.5294,0.0,0.031400950000000004,1929,2189
+pandas_cut-gpt6astra-L5-s0-low-e2d21e,gpt6astra,low,pandas_cut,L5,write,1.0,1.0,1.32292,126357,1187
+gpt2_forward-gpt6astra-L5-s0-low-8b2939,gpt6astra,low,gpt2_forward,L5,write,1.0,1.0,1.29362,115767,2719
+gpt2_generate-gpt41-L0-s2-def-e5ecc1,gpt41,default,gpt2_generate,L0,write,0.5625,0.0,0.024906,713,2935
+sort_tracker-gpt52-L0-s1-low-fea294,gpt52,low,sort_tracker,L0,write,0.4706,0.0,0.10925775,4169,7283
+sortedlist_key-gpt6astra-L2-s1-low-4dd051,gpt6astra,low,sortedlist_key,L2,write,1.0,1.0,0.206884,19007,3757
+gpt2_generate__fix1-gpt41-L0-s0-def-a9e29b,gpt41,default,gpt2_generate__fix1,L0,bug fix,1.0,1.0,0.023382,3219,2118
+gpt2_generate__fix2-beam-L0-s1-low-624d3f,beam,low,gpt2_generate__fix2,L0,bug fix,1.0,1.0,0.00329425,2793,2596
+sort_tracker__fix2-gpt6astra-L2-s1-low-b45777,gpt6astra,low,sort_tracker__fix2,L2,bug fix,1.0,1.0,0.073545,13318,1204
+numpy_quantile-beam-L0-s0-low-7d0d78,beam,low,numpy_quantile,L0,write,0.4167,0.0,0.00313425,525,3003
+sort_tracker-beam-L0-s0-low-712147,beam,low,sort_tracker,L0,write,0.4118,0.0,0.0046665,2950,3929
+sortedlist_core-beam-L2-s2-low-34ee53,beam,low,sortedlist_core,L2,write,1.0,1.0,0.01046875,18651,5806
+gpt2_generate-beam-L5-s1-low-9690d4,beam,low,gpt2_generate,L5,write,0.875,0.0,0.03321425,115481,4344
+numpy_quantile-beam-L2-s1-low-7c20cf,beam,low,numpy_quantile,L2,write,0.9583,0.0,0.0183825,56742,4197
+numpy_quantile-gpt6astra-L5-s1-low-bee952,gpt6astra,low,numpy_quantile,L5,write,1.0,1.0,0.226692,160065,1332
+gpt2_generate-beam-L0-s0-low-a39ccf,beam,low,gpt2_generate,L0,write,0.375,0.0,0.0026875,754,2499
+sortedlist_core__fix2-beam-L2-s0-low-14cbce,beam,low,sortedlist_core__fix2,L2,bug fix,1.0,1.0,0.008724,22152,3186
+sortedlist_key__fix2-gpt41-L2-s0-def-1c6aca,gpt41,default,sortedlist_key__fix2,L2,bug fix,0.9091,0.0,0.07406,22426,3651
+sortedlist_key-gpt41-L5-s0-def-944e4b,gpt41,default,sortedlist_key,L5,write,0.9545,0.0,0.189786,57197,9424
+sortedlist_core__fix2-gpt52-L2-s0-low-bbe55d,gpt52,low,sortedlist_core__fix2,L2,bug fix,1.0,1.0,0.07678685,22171,3131
+sortedlist_core-gpt6astra-L0-s0-low-29b02d,gpt6astra,low,sortedlist_core,L0,write,1.0,1.0,0.15456,541,2983
+pandas_cut__fix2-gpt52-L0-s1-low-9f4ca7,gpt52,low,pandas_cut__fix2,L0,bug fix,0.6667,0.0,0.09585275,1749,6628
+sortedlist_key-gpt52-L2-s1-low-f24d8a,gpt52,low,sortedlist_key,L2,write,0.9545,0.0,0.12315065,19007,8451
+numpy_quantile-gpt6astra-L5-s0-low-7cdf03,gpt6astra,low,numpy_quantile,L5,write,1.0,1.0,1.67005,160065,1388
+gpt2_generate-gpt6astra-L5-s0-low-d9d2d6,gpt6astra,low,gpt2_generate,L5,write,1.0,1.0,1.30341,115986,2871
+sort_tracker-beam-L5-s1-low-aa86aa,beam,low,sort_tracker,L5,write,1.0,1.0,0.0141595,42426,3553
+sort_tracker__fix2-gpt52-L0-s1-low-bc1e1c,gpt52,low,sort_tracker__fix2,L0,bug fix,1.0,1.0,0.02621395,1917,1820
+sortedlist_key-beam-L5-s1-low-68c9d3,beam,low,sortedlist_key,L5,write,0.9545,0.0,0.0238625,57646,9451
+numpy_quantile-gpt41-L0-s1-def-22ffd8,gpt41,default,numpy_quantile,L0,write,0.2083,0.0,0.056122000000000005,8793,6233
+sort_tracker__fix1-gpt6astra-L2-s0-low-641598,gpt6astra,low,sort_tracker__fix1,L2,bug fix,1.0,1.0,0.1955,13330,1244
+pandas_cut-gpt52-L5-s0-low-a1b46a,gpt52,low,pandas_cut,L5,write,0.4667,0.0,0.32876935,255209,6472
+sortedlist_core-gpt6astra-AG-s1-low-9da02e,gpt6astra,low,sortedlist_core,AG,agentic,1.0,1.0,0.226232,11931,2704
+gpt2_forward-beam-L0-s0-medium-6ab4bb,beam,medium,gpt2_forward,L0,write,0.8667,0.0,0.004219,536,4085
+sortedlist_core-gpt41-L2-s0-def-4f4f53,gpt41,default,sortedlist_core,L2,write,0.68,0.0,0.071386,18729,4241
+sort_tracker__fix2-gpt41-L2-s1-def-88a665,gpt41,default,sort_tracker__fix2,L2,bug fix,1.0,1.0,0.016494,13319,1204
+gpt2_forward__fix2-gpt6astra-L0-s1-low-82ac1e,gpt6astra,low,gpt2_forward__fix2,L0,bug fix,1.0,1.0,0.100825,3048,1955
+pandas_cut-gpt52-L0-s0-low-83a159,gpt52,low,pandas_cut,L0,write,0.5333,0.0,0.0716205,2822,4763
+sortedlist_core__fix2-gpt6astra-L0-s1-low-09deda,gpt6astra,low,sortedlist_core__fix2,L0,bug fix,1.0,1.0,0.157061,3984,3061
+sortedlist_key-gpt52-AG-s1-low-ec1c12,gpt52,low,sortedlist_key,AG,agentic,0.9545,0.0,0.3657976,199216,17700
+numpy_quantile-gpt6astra-L0-s0-low-f8cdac,gpt6astra,low,numpy_quantile,L0,write,0.9583,0.0,0.09235,490,1749
+numpy_quantile-gpt6astra-XL-s0-low-b13ca5,gpt6astra,low,numpy_quantile,XL,long context,1.0,1.0,2.58905,252410,1299
+gpt2_generate-beam-L2-s2-low-38d7ff,beam,low,gpt2_generate,L2,write,0.9375,0.0,0.0148415,44302,3766
+numpy_quantile__fix1-gpt52-L2-s1-low-ba1145,gpt52,low,numpy_quantile__fix1,L2,bug fix,1.0,1.0,0.0306838,56284,1449
+pandas_cut-gpt6astra-L5-s1-low-875677,gpt6astra,low,pandas_cut,L5,write,1.0,1.0,0.185534,126357,1183
+numpy_quantile-gpt6astra-L2-s0-low-2851ea,gpt6astra,low,numpy_quantile,L2,write,1.0,1.0,0.61567,54747,1364
+sort_tracker-gpt6astra-L0-s1-low-818670,gpt6astra,low,sort_tracker,L0,write,0.4706,0.0,0.13239,499,2548
+sortedlist_key__fix1-beam-L0-s0-low-9f3bd5,beam,low,sortedlist_key__fix1,L0,bug fix,0.8636,0.0,0.00495725,4069,3940
+gpt2_generate__fix1-gpt6astra-L0-s1-low-73abba,gpt6astra,low,gpt2_generate__fix1,L0,bug fix,1.0,1.0,0.100995,3218,1955
+pandas_cut__fix1-beam-L0-s1-low-e2ebee,beam,low,pandas_cut__fix1,L0,bug fix,1.0,1.0,0.00400475,5007,2753
+sort_tracker-beam-AG-s0-low-d89888,beam,low,sort_tracker,AG,agentic,0.4118,0.0,0.0116225,39350,1785
+sort_tracker__fix1-gpt52-L2-s1-low-9fce32,gpt52,low,sort_tracker__fix1,L2,bug fix,1.0,1.0,0.0254219,13330,1604
+pandas_cut-gpt52-AG-s0-low-54f4f7,gpt52,low,pandas_cut,AG,agentic,0.6667,0.0,0.10448375,8945,6345
+sort_tracker-nemotron-L2-s0-low-bcfe6a,nemotron,low,sort_tracker,L2,write,0.4706,0.0,0.0,12573,6323
+sort_tracker-beam-L5-s0-low-bdb049,beam,low,sort_tracker,L5,write,0.5882,0.0,0.0148225,42426,4216
+sort_tracker-gpt52-L2-s1-low-78bed2,gpt52,low,sort_tracker,L2,write,1.0,1.0,0.054019,11900,3595
+gpt2_generate-beam-L5-s0-low-78a0b4,beam,low,gpt2_generate,L5,write,0.5,0.0,0.03256325,115481,3693
+gpt2_forward-gpt6astra-L2-s1-low-3e5bd1,gpt6astra,low,gpt2_forward,L2,write,1.0,1.0,0.153955,18728,2704
+pandas_cut__fix2-beam-L2-s0-low-8e3973,beam,low,pandas_cut__fix2,L2,bug fix,1.0,1.0,0.00320525,8473,1087
+sortedlist_core-gpt41-L5-s1-def-bc29c6,gpt41,default,sortedlist_core,L5,write,1.0,1.0,0.074068,56918,5565
+pandas_cut__fix2-gpt52-L2-s1-low-84d20d,gpt52,low,pandas_cut__fix2,L2,bug fix,1.0,1.0,0.04827865,8367,3281
+pandas_cut__fix1-beam-L2-s0-low-d2acd3,beam,low,pandas_cut__fix1,L2,bug fix,1.0,1.0,0.0073679999999999995,18760,2678
+gpt2_forward-gpt52-L2-s1-low-66da2a,gpt52,low,gpt2_forward,L2,write,1.0,1.0,0.0765044,18728,5154
+sortedlist_core-gpt52-L5-s0-low-5c5529,gpt52,low,sortedlist_core,L5,write,1.0,1.0,0.14910315,56917,5566
+gpt2_forward-gpt41-L0-s2-def-097fec,gpt41,default,gpt2_forward,L0,write,0.4667,0.0,0.02194,494,2619
+sort_tracker-gpt6astra-AG-s1-low-12c2f3,gpt6astra,low,sort_tracker,AG,agentic,1.0,1.0,0.39647299999999996,82889,2091
+sortedlist_core-gpt52-AG-s1-low-3bef34,gpt52,low,sortedlist_core,AG,agentic,0.96,0.0,0.13937349999999998,96890,5908
+pandas_cut-gpt41-L5-s1-def-301439,gpt41,default,pandas_cut,L5,write,0.5333,0.0,0.34486799999999995,254902,3383
+numpy_quantile__fix1-beam-L2-s1-low-a62690,beam,low,numpy_quantile__fix1,L2,bug fix,1.0,1.0,0.016253,58280,1683
+pandas_cut__fix1-gpt41-L0-s0-def-b35e94,gpt41,default,pandas_cut__fix1,L0,bug fix,0.4667,0.0,0.039306,10021,3800
+sortedlist_key-gpt52-AG-s0-low-045e45,gpt52,low,sortedlist_key,AG,agentic,0.7727,0.0,0.20439895,184785,8609
+gpt2_forward__fix2-gpt41-L0-s1-def-283960,gpt41,default,gpt2_forward__fix2,L0,bug fix,0.8667,0.0,0.01769,3049,1977
+sort_tracker-gpt52-AG-s0-low-469b1e,gpt52,low,sort_tracker,AG,agentic,1.0,1.0,0.12975025,138551,4909
+gpt2_generate-gpt6astra-L5-s1-low-c8af3a,gpt6astra,low,gpt2_generate,L5,write,1.0,1.0,0.263613,115986,2952
+pandas_cut-gpt41-L0-s0-def-c08051,gpt41,default,pandas_cut,L0,write,0.4,0.0,0.046084,7326,5033
+sortedlist_core__fix2-gpt52-L0-s1-low-538113,gpt52,low,sortedlist_core__fix2,L0,bug fix,1.0,1.0,0.0457016,3984,3184
+sortedlist_core-nemotron-L0-s0-low-1faedf,nemotron,low,sortedlist_core,L0,write,0.64,0.0,0.0,17184,19960
+pandas_cut-gpt52-L2-s1-low-c0a399,gpt52,low,pandas_cut,L2,write,0.6667,0.0,0.0430227,7122,2946
+gpt2_generate-gpt52-L2-s1-low-ecee19,gpt52,low,gpt2_generate,L2,write,0.9375,0.0,0.08247365,44395,5252
+sortedlist_core__fix1-gpt52-L2-s1-low-56f0f3,gpt52,low,sortedlist_core__fix1,L2,bug fix,1.0,1.0,0.0595175,21970,3881
+sortedlist_key__fix2-gpt52-L2-s1-low-709660,gpt52,low,sortedlist_key__fix2,L2,bug fix,0.9091,0.0,0.05987695,22425,3965
+sortedlist_key-nemotron-L2-s0-low-d941b4,nemotron,low,sortedlist_key,L2,write,0.9545,0.0,0.0,19423,10285
+numpy_quantile-gpt52-L0-s1-low-038dfd,gpt52,low,numpy_quantile,L0,write,0.625,0.0,0.1074675,490,7615
+sortedlist_core-gpt52-L5-s1-low-81d19e,gpt52,low,sortedlist_core,L5,write,1.0,1.0,0.09864155000000001,56917,6224
+gpt2_forward-beam-L0-s1-medium-fcf6f3,beam,medium,gpt2_forward,L0,write,0.8667,0.0,0.004491,536,4357
+sortedlist_key__fix1-gpt6astra-L0-s1-low-9e18ac,gpt6astra,low,sortedlist_key__fix1,L0,bug fix,1.0,1.0,0.157123,4046,3061
+pandas_cut__fix2-beam-L0-s0-low-3cc792,beam,low,pandas_cut__fix2,L0,bug fix,0.5333,0.0,0.00602575,6843,4315
+sortedlist_core__fix2-gpt41-L0-s0-def-6f7a66,gpt41,default,sortedlist_core__fix2,L0,bug fix,1.0,1.0,0.032546,3985,3072
+sort_tracker__fix2-gpt41-L0-s1-def-1a29de,gpt41,default,sort_tracker__fix2,L0,bug fix,1.0,1.0,0.010844,1918,1212
+sortedlist_core__fix2-beam-L0-s1-low-339578,beam,low,sortedlist_core__fix2,L0,bug fix,1.0,1.0,0.00553725,8929,3305
+sortedlist_core-gpt41-XL-s0-def-525641,gpt41,default,sortedlist_core,XL,long context,0.68,0.0,0.539768,250460,4856
+pandas_cut__fix2-gpt41-L2-s0-def-cab23a,gpt41,default,pandas_cut__fix2,L2,bug fix,1.0,1.0,0.024752,8368,1002
+sortedlist_key-gpt41-L2-s0-def-0d21f2,gpt41,default,sortedlist_key,L2,write,0.9545,0.0,0.102136,19008,8015
+sortedlist_core-gpt52-L0-s1-low-2a69b4,gpt52,low,sortedlist_core,L0,write,0.8,0.0,0.07159075,541,5046
+gpt2_generate-gpt6astra-XL-s0-low-d96219,gpt6astra,low,gpt2_generate,XL,long context,1.0,1.0,2.26732,211277,3091
+numpy_quantile-gpt52-L0-s0-low-261e1a,gpt52,low,numpy_quantile,L0,write,0.4167,0.0,0.0655095,490,4618
+sort_tracker-beam-XXL-s0-low-46be2b,beam,low,sort_tracker,XXL,long context,0.9412,0.0,0.1523655,588646,5204
+sortedlist_core-beam-L2-s1-medium-7dddc8,beam,medium,sortedlist_core,L2,write,1.0,1.0,0.010565,18652,5902
+sortedlist_core-beam-L0-s1-medium-37b5f2,beam,medium,sortedlist_core,L0,write,0.84,0.0,0.004972,576,4828
+pandas_cut-gpt41-L5-s0-def-03cfc6,gpt41,default,pandas_cut,L5,write,0.5333,0.0,0.255492,126358,1475
+numpy_quantile-gpt52-AG-s1-low-c84b13,gpt52,low,numpy_quantile,AG,agentic,0.9167,0.0,0.20383194999999998,73749,9776
+gpt2_generate-gpt41-AG-s0-def-7a3e9f,gpt41,default,gpt2_generate,AG,agentic,0.5625,0.0,0.218704,206568,6152
+sort_tracker-gpt52-L2-s0-low-5a1397,gpt52,low,sort_tracker,L2,write,1.0,1.0,0.070287,11900,3533
+sortedlist_core-gpt6astra-L0-s1-low-fdc711,gpt6astra,low,sortedlist_core,L0,write,1.0,1.0,0.14376,541,2767
+gpt2_generate-nemotron-L0-s0-low-32e9af,nemotron,low,gpt2_generate,L0,write,0.625,0.0,0.0,741,3772
+gpt2_forward-gpt52-L0-s1-low-c3b011,gpt52,low,gpt2_forward,L0,write,1.0,1.0,0.06813275,493,4805
+sortedlist_core-gpt6astra-AG-s0-low-e3b8df,gpt6astra,low,sortedlist_core,AG,agentic,1.0,1.0,0.26981,25625,3027
+sortedlist_key-beam-L0-s0-medium-6d31c6,beam,medium,sortedlist_key,L0,write,0.5909,0.0,0.01154325,8493,9420
+gpt2_generate-gpt52-L2-s0-low-353727,gpt52,low,gpt2_generate,L2,write,0.9375,0.0,0.15414525,44395,5461
+gpt2_generate__fix1-beam-L0-s1-low-80900e,beam,low,gpt2_generate__fix1,L0,bug fix,1.0,1.0,0.0029605,3366,2119
+numpy_quantile__fix2-gpt6astra-L2-s0-low-e52a16,gpt6astra,low,numpy_quantile__fix2,L2,bug fix,1.0,1.0,0.62678,56258,1284
+pandas_cut__fix2-gpt6astra-L2-s0-low-c15bd6,gpt6astra,low,pandas_cut__fix2,L2,bug fix,1.0,1.0,0.13367,8367,1000
+numpy_quantile__fix1-gpt52-L0-s0-low-2f5e0e,gpt52,low,numpy_quantile__fix1,L0,bug fix,1.0,1.0,0.02869125,2027,1796
+numpy_quantile__fix1-gpt6astra-L0-s1-low-499bd8,gpt6astra,low,numpy_quantile__fix1,L0,bug fix,1.0,1.0,0.066454,2027,1288
+pandas_cut__fix2-gpt41-L0-s1-def-c30de5,gpt41,default,pandas_cut__fix2,L0,bug fix,1.0,1.0,0.009804,1750,1076
+pandas_cut-gpt41-XL-s0-def-8c7382,gpt41,default,pandas_cut,XL,long context,0.4,0.0,1.084546,699493,4327
+pandas_cut-gpt52-L2-s0-low-d6c219,gpt52,low,pandas_cut,L2,write,0.6,0.0,0.10831345,16735,6408
+numpy_quantile__fix1-gpt6astra-L0-s0-low-d668c6,gpt6astra,low,numpy_quantile__fix1,L0,bug fix,1.0,1.0,0.08467,2027,1288
+gpt2_forward__fix2-gpt41-L2-s0-def-b0575a,gpt41,default,gpt2_forward__fix2,L2,bug fix,1.0,1.0,0.058392,21284,1978
+sortedlist_core__fix2-gpt52-L0-s0-low-727b5b,gpt52,low,sortedlist_core__fix2,L0,bug fix,1.0,1.0,0.051576,3984,3186
+sortedlist_core-beam-L5-s1-low-db5ae0,beam,low,sortedlist_core,L5,write,1.0,1.0,0.020263,57368,5921
+sortedlist_key-beam-L0-s0-low-06fb15,beam,low,sortedlist_key,L0,write,0.8182,0.0,0.01108775,7431,9230
+sortedlist_core__fix2-gpt6astra-L2-s1-low-cc0875,gpt6astra,low,sortedlist_core__fix2,L2,bug fix,1.0,1.0,0.175248,22171,3061
+gpt2_forward-gpt41-L2-s1-def-023051,gpt41,default,gpt2_forward,L2,write,0.6,0.0,0.036474,18729,3357
+sortedlist_core-gpt6astra-L5-s1-low-afc78b,gpt6astra,low,sortedlist_core,L5,write,1.0,1.0,0.216344,56917,3188
+gpt2_forward__fix2-gpt52-L0-s1-low-09e16c,gpt52,low,gpt2_forward__fix2,L0,bug fix,1.0,1.0,0.031130400000000003,3048,2145
+gpt2_generate__fix2-gpt41-L2-s1-def-df5514,gpt41,default,gpt2_generate__fix2,L2,bug fix,1.0,1.0,0.03916,46428,1952
+numpy_quantile__fix2-gpt6astra-L2-s1-low-b77045,gpt6astra,low,numpy_quantile__fix2,L2,bug fix,1.0,1.0,0.120485,56258,1284
+gpt2_generate-gpt6astra-L2-s0-low-f6180a,gpt6astra,low,gpt2_generate,L2,write,1.0,1.0,0.58025,44395,2726
+numpy_quantile-gpt41-L5-s1-def-73e080,gpt41,default,numpy_quantile,L5,write,0.2917,0.0,0.334396,160066,1783
+gpt2_forward-beam-XXL-s0-low-02a2ac,beam,low,gpt2_forward,XXL,long context,0.9333,0.0,0.27857350000000003,1088570,6431
+gpt2_forward-gpt41-L5-s1-def-5a3203,gpt41,default,gpt2_forward,L5,write,0.5333,0.0,0.079424,115768,2658
+gpt2_generate__fix2-gpt52-L2-s1-low-5e8852,gpt52,low,gpt2_generate__fix2,L2,bug fix,1.0,1.0,0.04060805,46427,2238
+sort_tracker__fix2-gpt52-L0-s0-low-ac82ae,gpt52,low,sort_tracker__fix2,L0,bug fix,1.0,1.0,0.03374875,1917,2171
+gpt2_generate__fix2-gpt52-L0-s0-low-2b091c,gpt52,low,gpt2_generate__fix2,L0,bug fix,1.0,1.0,0.039984,2744,2513
+gpt2_generate__fix2-gpt6astra-L2-s0-low-53e2f7,gpt6astra,low,gpt2_generate__fix2,L2,bug fix,1.0,1.0,0.56202,46427,1955
+numpy_quantile-nemotron-L2-s0-low-b51038,nemotron,low,numpy_quantile,L2,write,0.1667,0.0,0.0,261507,16799
+pandas_cut-beam-L0-s1-low-708b1d,beam,low,pandas_cut,L0,write,0.4667,0.0,0.00192675,1479,1557
+sortedlist_key__fix2-gpt52-L0-s0-low-ed4799,gpt52,low,sortedlist_key__fix2,L0,bug fix,0.9091,0.0,0.1777405,4238,12166
+sort_tracker-gpt41-L0-s0-def-b14737,gpt41,default,sort_tracker,L0,write,0.4706,0.0,0.020856,500,2482
+gpt2_generate-gpt52-L5-s1-low-9fde9e,gpt52,low,gpt2_generate,L5,write,0.875,0.0,0.10314989999999999,115986,5844
+pandas_cut__fix1-gpt52-L2-s0-low-3c9862,gpt52,low,pandas_cut__fix1,L2,bug fix,0.6667,0.0,0.046375,8340,2270
+sort_tracker__fix2-gpt41-L2-s0-def-a7eaac,gpt41,default,sort_tracker__fix2,L2,bug fix,1.0,1.0,0.036222,13319,1198
+gpt2_generate-beam-L2-s0-low-eae879,beam,low,gpt2_generate,L2,write,0.9375,0.0,0.04622575,145123,9945
+sort_tracker__fix1-gpt6astra-L2-s1-low-27bb07,gpt6astra,low,sort_tracker__fix1,L2,bug fix,1.0,1.0,0.075557,13330,1244
+sortedlist_core__fix2-beam-L0-s0-low-32cfb9,beam,low,sortedlist_core__fix2,L0,bug fix,1.0,1.0,0.004198,4076,3179
+numpy_quantile-beam-L0-s1-low-8eb84c,beam,low,numpy_quantile,L0,write,0.3333,0.0,0.00590875,4639,4749
+numpy_quantile-gpt52-L2-s0-low-41ee93,gpt52,low,numpy_quantile,L2,write,0.4583,0.0,0.18154325,54747,6124
+sortedlist_core__fix1-beam-L0-s0-low-79dfaa,beam,low,sortedlist_core__fix1,L0,bug fix,1.0,1.0,0.0041495,3822,3194
+pandas_cut__fix1-gpt41-L2-s1-def-bbec9e,gpt41,default,pandas_cut__fix1,L2,bug fix,1.0,1.0,0.026936,18020,2102
+numpy_quantile__fix1-gpt6astra-L2-s0-low-33a7ee,gpt6astra,low,numpy_quantile__fix1,L2,bug fix,1.0,1.0,0.62724,56284,1288
+gpt2_forward-gpt6astra-L0-s0-low-3848aa,gpt6astra,low,gpt2_forward,L0,write,1.0,1.0,0.15068,493,2915
+sortedlist_core__fix1-gpt41-L2-s0-def-f860a6,gpt41,default,sortedlist_core__fix1,L2,bug fix,1.0,1.0,0.06343,21971,3108
+pandas_cut-nemotron-L2-s0-low-583b54,nemotron,low,pandas_cut,L2,write,0.4667,0.0,0.0,16710,20250
+sortedlist_key__fix1-gpt52-L2-s1-low-6e6ea2,gpt52,low,sortedlist_key__fix1,L2,bug fix,0.8636,0.0,0.05565175,22233,3572
+sortedlist_key-beam-L2-s2-low-4c813d,beam,low,sortedlist_key,L2,write,0.9545,0.0,0.01431525,18929,9583
+sort_tracker-gpt6astra-L2-s0-low-9322a8,gpt6astra,low,sort_tracker,L2,write,1.0,1.0,0.19275,11900,1475
+sortedlist_core__fix1-gpt52-L0-s0-low-16d0ec,gpt52,low,sortedlist_core__fix1,L0,bug fix,1.0,1.0,0.05739825,3783,3627
+sortedlist_core-beam-L5-s1-medium-8dbe27,beam,medium,sortedlist_core,L5,write,1.0,1.0,0.02118225,57369,6840
+sortedlist_key__fix1-gpt41-L2-s1-def-e326d8,gpt41,default,sortedlist_key__fix1,L2,bug fix,0.8636,0.0,0.038436,22234,3374
+numpy_quantile-nemotron-L0-s0-low-254231,nemotron,low,numpy_quantile,L0,write,0.4167,0.0,0.0,49738,35507
+gpt2_forward-beam-L5-s0-low-587fd2,beam,low,gpt2_forward,L5,write,0.8667,0.0,0.0327695,115262,3954
+sortedlist_core-gpt41-L0-s0-def-149a7b,gpt41,default,sortedlist_core,L0,write,0.72,0.0,0.029132,542,3506
+sortedlist_key__fix2-gpt6astra-L0-s1-low-3d2e11,gpt6astra,low,sortedlist_key__fix2,L0,bug fix,1.0,1.0,0.158215,4238,3079
+gpt2_generate-gpt41-L0-s1-def-21f191,gpt41,default,gpt2_generate,L0,write,0.625,0.0,0.033074,713,3956
+sortedlist_key__fix1-gpt41-L0-s1-def-28a6a2,gpt41,default,sortedlist_key__fix1,L0,bug fix,0.8636,0.0,0.032838,4047,3093
+gpt2_forward__fix2-gpt52-L2-s0-low-6dbc67,gpt52,low,gpt2_forward__fix2,L2,bug fix,1.0,1.0,0.062285650000000005,21283,2091
+gpt2_forward-gpt6astra-AG-s1-low-887889,gpt6astra,low,gpt2_forward,AG,agentic,1.0,1.0,0.14006,666,2668
+sort_tracker__fix1-beam-L0-s1-low-f253f3,beam,low,sort_tracker__fix1,L0,bug fix,0.6471,0.0,0.00203375,1959,1544
+sortedlist_key-gpt41-L0-s2-def-6a09c3,gpt41,default,sortedlist_key,L0,write,0.6818,0.0,0.117872,9616,13650
+gpt2_generate-beam-L2-s0-medium-3f9acd,beam,medium,gpt2_generate,L2,write,0.9375,0.0,0.01665975,44303,5584
+gpt2_forward-beam-L0-s0-low-982ead,beam,low,gpt2_forward,L0,write,0.9333,0.0,0.00215775,535,2024
+pandas_cut-gpt52-XL-s0-low-4e0ef4,gpt52,low,pandas_cut,XL,long context,0.5333,0.0,0.5312195,465362,5766
+sortedlist_core-gpt52-AG-s0-low-3ccc6b,gpt52,low,sortedlist_core,AG,agentic,0.76,0.0,0.1479835,140082,6308
+pandas_cut__fix1-gpt6astra-L2-s1-low-b8f705,gpt6astra,low,pandas_cut__fix1,L2,bug fix,1.0,1.0,0.058367,8340,1000
+sortedlist_key-beam-L0-s1-medium-7e87fc,beam,medium,sortedlist_key,L0,write,0.7727,0.0,0.0073035,854,7090
+gpt2_generate__fix1-gpt52-L2-s0-low-740626,gpt52,low,gpt2_generate__fix1,L2,bug fix,1.0,1.0,0.11263314999999999,46901,2485
+gpt2_generate__fix2-beam-L2-s1-low-174fcb,beam,low,gpt2_generate__fix2,L2,bug fix,1.0,1.0,0.01376225,46341,2177
+gpt2_generate-gpt6astra-L0-s0-low-2e18a1,gpt6astra,low,gpt2_generate,L0,write,1.0,1.0,0.15142,712,2886
+gpt2_forward-beam-L2-s1-medium-4db642,beam,medium,gpt2_forward,L2,write,0.9333,0.0,0.0091735,18762,4483
+gpt2_forward-beam-L2-s0-low-2105db,beam,low,gpt2_forward,L2,write,0.9333,0.0,0.00770825,18761,3018
+pandas_cut__fix2-gpt6astra-L0-s0-low-27796b,gpt6astra,low,pandas_cut__fix2,L0,bug fix,1.0,1.0,0.06749,1749,1000
+sort_tracker-gpt6astra-L0-s0-low-a0b422,gpt6astra,low,sort_tracker,L0,write,0.4706,0.0,0.14139,499,2728
+sort_tracker-beam-AG-s0-low-90d087,beam,low,sort_tracker,AG,agentic,0.4706,0.0,0.010619,33052,2356
+sortedlist_key-gpt41-L0-s1-def-145728,gpt41,default,sortedlist_key,L0,write,0.7727,0.0,0.049146,821,5938
+numpy_quantile__fix2-gpt6astra-L0-s1-low-bef5d5,gpt6astra,low,numpy_quantile__fix2,L0,bug fix,1.0,1.0,0.066228,2001,1284
+gpt2_forward__fix1-beam-L2-s0-low-8cceea,beam,low,gpt2_forward__fix1,L2,bug fix,1.0,1.0,0.00795725,21389,2610
+gpt2_generate-beam-AG-s1-low-f3743c,beam,low,gpt2_generate,AG,agentic,0.875,0.0,0.010908,23164,5117
+pandas_cut-gpt52-L0-s1-low-c2c42c,gpt52,low,pandas_cut,L0,write,0.6667,0.0,0.0847945,2790,5708
+sortedlist_key__fix2-gpt6astra-L2-s0-low-cc9d8d,gpt6astra,low,sortedlist_key__fix2,L2,bug fix,1.0,1.0,0.37805,22425,3076
+sortedlist_key__fix1-gpt6astra-L0-s0-low-734ebb,gpt6astra,low,sortedlist_key__fix1,L0,bug fix,1.0,1.0,0.19351,4046,3061
+pandas_cut-gpt41-AG-s1-def-3189fe,gpt41,default,pandas_cut,AG,agentic,0.4,0.0,0.043511999999999995,7124,4330
+sort_tracker__fix1-gpt41-L0-s1-def-0d57c1,gpt41,default,sort_tracker__fix1,L0,bug fix,0.7647,0.0,0.014028,1930,1271
+sortedlist_key-gpt41-L5-s2-def-7a6e20,gpt41,default,sortedlist_key,L5,write,0.9545,0.0,0.190082,57197,9461
+gpt2_generate-gpt52-AG-s1-low-24e7ce,gpt52,low,gpt2_generate,AG,agentic,1.0,1.0,0.14159565,59827,6898
+numpy_quantile-beam-AG-s0-low-d20e57,beam,low,numpy_quantile,AG,agentic,0.2917,0.0,0.012828250000000001,32757,4639
+sortedlist_core-gpt6astra-L2-s0-low-452375,gpt6astra,low,sortedlist_core,L2,write,1.0,1.0,0.32298,18728,2714
+pandas_cut-gpt6astra-L0-s1-low-089ece,gpt6astra,low,pandas_cut,L0,write,1.0,1.0,0.08599,504,1619
+numpy_quantile-beam-L5-s1-low-426c6b,beam,low,numpy_quantile,L5,write,0.5417,0.0,0.13697,500672,11802
+sortedlist_core-beam-AG-s1-low-46bfcd,beam,low,sortedlist_core,AG,agentic,0.0,0.0,0.0045755,14746,889
+numpy_quantile-beam-AG-s1-low-b93b0a,beam,low,numpy_quantile,AG,agentic,0.0,0.0,0.02400725,89829,1550
+gpt2_forward-gpt52-AG-s1-low-cb607d,gpt52,low,gpt2_forward,AG,agentic,0.9333,0.0,0.11498409999999999,44734,5559
+sortedlist_core__fix1-gpt52-L0-s1-low-ea31ea,gpt52,low,sortedlist_core__fix1,L0,bug fix,1.0,1.0,0.05231065,3783,3566
+sortedlist_core__fix1-gpt6astra-L0-s0-low-0f2248,gpt6astra,low,sortedlist_core__fix1,L0,bug fix,1.0,1.0,0.19083,3783,3060
+sortedlist_core__fix1-gpt6astra-L2-s1-low-043faa,gpt6astra,low,sortedlist_core__fix1,L2,bug fix,1.0,1.0,0.175047,21970,3061
+gpt2_generate-gpt41-L5-s2-def-e9f1c0,gpt41,default,gpt2_generate,L5,write,0.5625,0.0,0.082134,115987,2990
+gpt2_generate-gpt6astra-L2-s1-low-a4bdcb,gpt6astra,low,gpt2_generate,L2,write,1.0,1.0,0.178122,44395,2674
+sortedlist_key__fix2-gpt52-L0-s1-low-290eee,gpt52,low,sortedlist_key__fix2,L0,bug fix,1.0,1.0,0.0764981,4238,5352
+pandas_cut-beam-L2-s0-low-21cfcf,beam,low,pandas_cut,L2,write,0.5333,0.0,0.011764750000000001,28343,4679
+gpt2_generate__fix2-gpt6astra-L0-s0-low-132c55,gpt6astra,low,gpt2_generate__fix2,L0,bug fix,1.0,1.0,0.12519,2744,1955
+sortedlist_key__fix2-gpt6astra-L0-s0-low-ca5442,gpt6astra,low,sortedlist_key__fix2,L0,bug fix,1.0,1.0,0.19888,4238,3130
+sort_tracker__fix1-gpt52-L2-s0-low-45176d,gpt52,low,sort_tracker__fix1,L2,bug fix,1.0,1.0,0.041090699999999994,13330,1456
+gpt2_forward-beam-L5-s1-medium-6e26fc,beam,medium,gpt2_forward,L5,write,1.0,1.0,0.03398275,115263,5167
+gpt2_generate__fix1-gpt41-L2-s0-def-a911e7,gpt41,default,gpt2_generate__fix1,L2,bug fix,1.0,1.0,0.10982,46902,2002
+sortedlist_core-beam-L5-s2-low-3fe534,beam,low,sortedlist_core,L5,write,1.0,1.0,0.019976,57368,5634
+sortedlist_core-beam-L2-s1-low-05f343,beam,low,sortedlist_core,L2,write,1.0,1.0,0.01054875,18651,5886
+sort_tracker-gpt6astra-AG-s0-low-017a06,gpt6astra,low,sort_tracker,AG,agentic,1.0,1.0,0.374404,67234,2052
+gpt2_forward-gpt41-L0-s1-def-7be5a8,gpt41,default,gpt2_forward,L0,write,0.4,0.0,0.025356,494,3046
+sort_tracker-beam-AG-s1-low-8efd46,beam,low,sort_tracker,AG,agentic,0.4706,0.0,0.0121645,38778,2470
+numpy_quantile-beam-XXL-s0-low-74a918,beam,low,numpy_quantile,XXL,long context,0.9583,0.0,0.17040575,659787,5459
+gpt2_forward-gpt52-L0-s0-low-e486e2,gpt52,low,gpt2_forward,L0,write,0.8667,0.0,0.05802475,493,4083
+gpt2_forward__fix1-gpt41-L2-s0-def-55985c,gpt41,default,gpt2_forward__fix1,L2,bug fix,1.0,1.0,0.058266,21237,1974
+numpy_quantile-beam-XL-s0-low-7c7705,beam,low,numpy_quantile,XL,long context,0.3333,0.0,0.06767775,255039,3918
+gpt2_generate-beam-L0-s1-medium-653442,beam,medium,gpt2_generate,L0,write,0.625,0.0,0.014353250000000001,15845,10392
+gpt2_forward-beam-L5-s0-medium-a634df,beam,medium,gpt2_forward,L5,write,1.0,1.0,0.10415050000000001,363150,13363
+gpt2_generate-gpt41-XL-s0-def-683246,gpt41,default,gpt2_generate,XL,long context,0.5625,0.0,0.905938,427085,6471
+gpt2_generate-gpt52-AG-s0-low-7bd56c,gpt52,low,gpt2_generate,AG,agentic,0.875,0.0,0.1266552,45056,6410
+sortedlist_key-gpt6astra-L2-s0-low-99e363,gpt6astra,low,sortedlist_key,L2,write,1.0,1.0,0.37747,19007,3748
+sortedlist_core-gpt41-L0-s1-def-59f2db,gpt41,default,sortedlist_core,L0,write,0.76,0.0,0.02362,542,2817
+pandas_cut-beam-AG-s1-low-33ee27,beam,low,pandas_cut,AG,agentic,0.4667,0.0,0.0088145,21242,3504
+sortedlist_key-gpt52-L0-s1-low-4feeaf,gpt52,low,sortedlist_key,L0,write,0.8182,0.0,0.102613,820,7227
+gpt2_forward-gpt41-L5-s0-def-c8a571,gpt41,default,gpt2_forward,L5,write,1.0,1.0,0.34171,234891,6263
+pandas_cut-gpt41-L2-s1-def-327d9f,gpt41,default,pandas_cut,L2,write,0.4667,0.0,0.054372,27494,4867
+sort_tracker-gpt52-L5-s1-low-9b4afd,gpt52,low,sort_tracker,L5,write,0.9412,0.0,0.057351,42532,3460
+sortedlist_core__fix1-beam-L0-s1-low-0ec40c,beam,low,sortedlist_core__fix1,L0,bug fix,1.0,1.0,0.0055785,8582,3433
+pandas_cut-beam-XXL-s0-low-6fae20,beam,low,pandas_cut,XXL,long context,0.6667,0.0,0.15517775,604495,4054
+gpt2_forward-gpt52-XL-s0-low-923059,gpt52,low,gpt2_forward,XL,long context,1.0,1.0,0.43251075,211077,4509
+numpy_quantile-gpt41-L0-s0-def-e522e1,gpt41,default,numpy_quantile,L0,write,0.3333,0.0,0.047862,4363,4892
+sortedlist_core-gpt41-AG-s0-def-4528e1,gpt41,default,sortedlist_core,AG,agentic,0.76,0.0,0.090016,61008,3464
+pandas_cut__fix2-gpt6astra-L2-s1-low-19db2c,gpt6astra,low,pandas_cut__fix2,L2,bug fix,1.0,1.0,0.058394,8367,1000
+sortedlist_key-gpt6astra-L0-s0-low-f73d2a,gpt6astra,low,sortedlist_key,L0,write,1.0,1.0,0.15465,820,2929
+sortedlist_core-beam-XL-s0-low-643b96,beam,low,sortedlist_core,XL,long context,0.96,0.0,0.073355,255124,9574
+sortedlist_key-gpt6astra-AG-s0-low-24a410,gpt6astra,low,sortedlist_key,AG,agentic,1.0,1.0,0.237238,12976,3609
+gpt2_forward-beam-XL-s0-low-3c756c,beam,low,gpt2_forward,XL,long context,0.8667,0.0,0.0565745,210650,3912
+numpy_quantile__fix2-gpt41-L0-s1-def-554775,gpt41,default,numpy_quantile__fix2,L0,bug fix,0.9583,0.0,0.01446,2002,1307
+gpt2_generate__fix2-gpt52-L0-s1-low-eba176,gpt52,low,gpt2_generate__fix2,L0,bug fix,1.0,1.0,0.033065199999999996,2744,2206
+sort_tracker-gpt6astra-L5-s1-low-978ec4,gpt6astra,low,sort_tracker,L5,write,1.0,1.0,0.116309,42532,1475
+pandas_cut-gpt6astra-XL-s0-low-a8f6cb,gpt6astra,low,pandas_cut,XL,long context,1.0,1.0,2.37534,231409,1225
+sortedlist_core__fix2-gpt41-L0-s1-def-cbb54e,gpt41,default,sortedlist_core__fix2,L0,bug fix,1.0,1.0,0.026802,3985,3074
+sortedlist_key__fix1-gpt6astra-L2-s1-low-642c8e,gpt6astra,low,sortedlist_key__fix1,L2,bug fix,1.0,1.0,0.17606,22233,3076
+sortedlist_key-gpt41-L0-s0-def-951fc8,gpt41,default,sortedlist_key,L0,write,0.7273,0.0,0.044418,821,5347
+gpt2_forward__fix2-gpt52-L0-s0-low-a86284,gpt52,low,gpt2_forward__fix2,L0,bug fix,1.0,1.0,0.035238,3048,2136
+gpt2_generate__fix1-gpt6astra-L2-s1-low-7f8d9e,gpt6astra,low,gpt2_generate__fix1,L2,bug fix,1.0,1.0,0.144678,46901,1955
+pandas_cut__fix1-beam-L2-s1-low-77b1ae,beam,low,pandas_cut__fix1,L2,bug fix,1.0,1.0,0.00331625,8429,1209
+numpy_quantile-gpt52-AG-s0-low-e89701,gpt52,low,numpy_quantile,AG,agentic,0.9167,0.0,0.10418975000000001,7073,6558
+gpt2_generate-beam-L2-s1-medium-1e0aa7,beam,medium,gpt2_generate,L2,write,0.9375,0.0,0.01690975,44303,5834
+gpt2_forward__fix2-gpt52-L2-s1-low-4f6664,gpt52,low,gpt2_forward__fix2,L2,bug fix,1.0,1.0,0.03318525,21283,2086
+sortedlist_key__fix1-gpt41-L0-s0-def-739be4,gpt41,default,sortedlist_key__fix1,L0,bug fix,1.0,1.0,0.035118,4047,3378
+sortedlist_core-gpt41-L2-s2-def-0f48c5,gpt41,default,sortedlist_core,L2,write,1.0,1.0,0.049346,18729,4966
+gpt2_generate-beam-L5-s0-medium-eeafc2,beam,medium,gpt2_generate,L5,write,0.875,0.0,0.070794,239852,10831
+numpy_quantile__fix1-gpt41-L2-s1-def-f530d2,gpt41,default,numpy_quantile__fix1,L2,bug fix,1.0,1.0,0.122986,56285,1302
+sortedlist_key-gpt52-L5-s0-low-e0e36f,gpt52,low,sortedlist_key,L5,write,0.9545,0.0,0.2002574,57196,9185
+gpt2_generate-gpt41-L2-s0-def-69d70b,gpt41,default,gpt2_generate,L2,write,0.625,0.0,0.170524,92922,7037
+gpt2_forward-beam-L0-s1-low-843a90,beam,low,gpt2_forward,L0,write,0.8667,0.0,0.00301975,535,2886
+gpt2_generate-nemotron-L2-s0-low-b69a3d,nemotron,low,gpt2_generate,L2,write,0.875,0.0,0.0,46758,3749
+pandas_cut-gpt6astra-L0-s0-low-4b529d,gpt6astra,low,pandas_cut,L0,write,0.8,0.0,0.08579,504,1615
+sort_tracker__fix1-gpt41-L2-s0-def-a28444,gpt41,default,sort_tracker__fix1,L2,bug fix,1.0,1.0,0.036878,13331,1277
+sortedlist_key__fix2-gpt52-L2-s0-low-3ce4d1,gpt52,low,sortedlist_key__fix2,L2,bug fix,0.9091,0.0,0.09251935,22425,4223
+gpt2_generate__fix2-gpt52-L2-s0-low-e507c2,gpt52,low,gpt2_generate__fix2,L2,bug fix,1.0,1.0,0.10998645,46427,2240
+gpt2_forward-beam-L5-s2-low-92f54c,beam,low,gpt2_forward,L5,write,1.0,1.0,0.0324915,115262,3676
+sortedlist_core-gpt41-L0-s2-def-c6d471,gpt41,default,sortedlist_core,L0,write,0.72,0.0,0.026604,542,3190
+sort_tracker__fix2-gpt6astra-L2-s0-low-d5e326,gpt6astra,low,sort_tracker__fix2,L2,bug fix,1.0,1.0,0.19448,13318,1226
+gpt2_generate-beam-L5-s1-medium-18d37f,beam,medium,gpt2_generate,L5,write,0.9375,0.0,0.0362875,115482,7417
+pandas_cut__fix2-beam-L2-s1-low-ba388c,beam,low,pandas_cut__fix2,L2,bug fix,1.0,1.0,0.00321925,8473,1101
+gpt2_generate__fix1-gpt52-L0-s1-low-ca4189,gpt52,low,gpt2_generate__fix1,L0,bug fix,1.0,1.0,0.0367199,3218,2523
+numpy_quantile-beam-L2-s0-low-f25fc7,beam,low,numpy_quantile,L2,write,0.0,0.0,0.0532565,179102,8481
+pandas_cut-beam-L0-s0-low-fd3231,beam,low,pandas_cut,L0,write,0.4667,0.0,0.0057035,7694,3780
+sortedlist_key__fix2-gpt41-L0-s0-def-9cc528,gpt41,default,sortedlist_key__fix2,L0,bug fix,0.9091,0.0,0.035782,4239,3413
+numpy_quantile-beam-L5-s0-low-6980e1,beam,low,numpy_quantile,L5,write,0.3333,0.0,0.0916325,331938,8648
+sort_tracker-gpt52-AG-s1-low-aeafae,gpt52,low,sort_tracker,AG,agentic,0.9412,0.0,0.15744225,199703,5291
+gpt2_forward-gpt41-L2-s2-def-18089a,gpt41,default,gpt2_forward,L2,write,1.0,1.0,0.03633,18729,3339
+sort_tracker-gpt41-L2-s1-def-c74678,gpt41,default,sort_tracker,L2,write,1.0,1.0,0.024682,11901,2318
+sort_tracker-gpt6astra-XL-s0-low-e19558,gpt6astra,low,sort_tracker,XL,long context,1.0,1.0,2.29691,222056,1527
+pandas_cut__fix1-gpt52-L0-s1-low-8363f7,gpt52,low,pandas_cut__fix1,L0,bug fix,1.0,1.0,0.0429975,1722,2856
+gpt2_generate__fix1-gpt52-L2-s1-low-6e2766,gpt52,low,gpt2_generate__fix1,L2,bug fix,1.0,1.0,0.04630675,46901,2701
+pandas_cut__fix2-gpt6astra-L0-s1-low-8d76c8,gpt6astra,low,pandas_cut__fix2,L0,bug fix,1.0,1.0,0.051776,1749,1000
+sortedlist_key-gpt52-L5-s1-low-5aea7e,gpt52,low,sortedlist_key,L5,write,0.9545,0.0,0.132937,57196,8754
+gpt2_generate-beam-L5-s2-low-c53510,beam,low,gpt2_generate,L5,write,0.875,0.0,0.03269125,115481,3821
+sortedlist_core-nemotron-L2-s0-low-5526e6,nemotron,low,sortedlist_core,L2,write,1.0,1.0,0.0,19146,8728
+sortedlist_key-gpt41-L2-s1-def-b1092b,gpt41,default,sortedlist_key,L2,write,0.9545,0.0,0.07772,19008,8491
+sortedlist_key-gpt41-AG-s0-def-ba117a,gpt41,default,sortedlist_key,AG,agentic,0.8182,0.0,0.180042,79093,10700
+gpt2_forward__fix2-gpt6astra-L2-s1-low-85b5c3,gpt6astra,low,gpt2_forward__fix2,L2,bug fix,1.0,1.0,0.11906,21283,1955
+sortedlist_key__fix1-gpt41-L2-s0-def-8dc199,gpt41,default,sortedlist_key__fix1,L2,bug fix,0.8636,0.0,0.069652,22234,3148
+gpt2_generate-beam-L0-s1-low-bae2d6,beam,low,gpt2_generate,L0,write,0.5625,0.0,0.010896,12220,7841
+pandas_cut__fix2-beam-L0-s1-low-d2b002,beam,low,pandas_cut__fix2,L0,bug fix,0.6,0.0,0.001743,1816,1289
+pandas_cut-gpt6astra-L2-s1-low-86e329,gpt6astra,low,pandas_cut,L2,write,1.0,1.0,0.070099,7122,1259
+sortedlist_key-beam-L2-s0-medium-5cfc5c,beam,medium,sortedlist_key,L2,write,0.9545,0.0,0.0144225,18930,9690
+sortedlist_key-beam-AG-s0-low-2523bd,beam,low,sortedlist_key,AG,agentic,0.0,0.0,0.0131145,47322,1284
+gpt2_forward__fix1-gpt52-L0-s0-low-731ff7,gpt52,low,gpt2_forward__fix1,L0,bug fix,1.0,1.0,0.04328975,3001,2717
+sortedlist_core-gpt52-L2-s1-low-c83ca9,gpt52,low,sortedlist_core,L2,write,1.0,1.0,0.0792764,18728,5352
+gpt2_generate__fix2-gpt41-L2-s0-def-49a57a,gpt41,default,gpt2_generate__fix2,L2,bug fix,1.0,1.0,0.108496,46428,1955
+sortedlist_core__fix1-gpt6astra-L2-s0-low-c265ae,gpt6astra,low,sortedlist_core__fix1,L2,bug fix,1.0,1.0,0.37275,21970,3061
+sort_tracker__fix2-gpt52-L2-s0-low-402ba1,gpt52,low,sort_tracker__fix2,L2,bug fix,1.0,1.0,0.0423717,13318,1549
+gpt2_forward-nemotron-L0-s0-low-d0f60e,nemotron,low,gpt2_forward,L0,write,0.5333,0.0,0.0,519,5198
+pandas_cut-beam-XL-s0-low-5adcd8,beam,low,pandas_cut,XL,long context,0.6667,0.0,0.1791345,700194,4086
+gpt2_forward-beam-AG-s0-low-166bae,beam,low,gpt2_forward,AG,agentic,0.8667,0.0,0.00688475,19263,2069
+sortedlist_key__fix1-gpt52-L2-s0-low-825668,gpt52,low,sortedlist_key__fix1,L2,bug fix,0.8636,0.0,0.08329335,22233,3588
+sortedlist_key__fix1-beam-L2-s0-low-deef9a,beam,low,sortedlist_key__fix1,L2,bug fix,0.8636,0.0,0.02137125,50009,8869
+gpt2_forward__fix1-gpt41-L0-s1-def-9431fa,gpt41,default,gpt2_forward__fix1,L0,bug fix,1.0,1.0,0.017556,3002,1972
+numpy_quantile__fix2-gpt41-L2-s0-def-b4fb76,gpt41,default,numpy_quantile__fix2,L2,bug fix,1.0,1.0,0.121662,56259,1479
+sort_tracker__fix2-gpt52-L2-s1-low-165391,gpt52,low,sort_tracker__fix2,L2,bug fix,1.0,1.0,0.025190900000000002,13318,1589
+sortedlist_core-beam-XXL-s0-low-f5ccc1,beam,low,sortedlist_core,XXL,long context,0.96,0.0,0.16940375,621615,14000
+sortedlist_key-gpt41-L5-s1-def-f76273,gpt41,default,sortedlist_key,L5,write,0.8182,0.0,0.191258,57197,9608
+gpt2_generate-gpt41-AG-s1-def-6cd9e2,gpt41,default,gpt2_generate,AG,agentic,0.75,0.0,0.22103,228671,4253
+sort_tracker-gpt41-AG-s1-def-760f3d,gpt41,default,sort_tracker,AG,agentic,0.4706,0.0,0.143808,134860,3053
+pandas_cut-gpt52-L5-s1-low-8ea854,gpt52,low,pandas_cut,L5,write,0.6667,0.0,0.13806729999999998,255014,6238
+gpt2_forward__fix2-gpt41-L2-s1-def-5be937,gpt41,default,gpt2_forward__fix2,L2,bug fix,1.0,1.0,0.058608,21284,2005
+gpt2_generate-gpt52-XL-s0-low-5decce,gpt52,low,gpt2_generate,XL,long context,1.0,1.0,0.44649675,211277,5483
+sortedlist_core-beam-L5-s0-low-e02e28,beam,low,sortedlist_core,L5,write,1.0,1.0,0.019965,57368,5623
+pandas_cut-beam-L2-s1-low-c2fe82,beam,low,pandas_cut,L2,write,0.0,0.0,0.015942249999999998,32549,7805
+numpy_quantile__fix2-beam-L2-s0-low-7d1033,beam,low,numpy_quantile__fix2,L2,bug fix,1.0,1.0,0.0159435,58290,1371
+sort_tracker__fix2-gpt6astra-L0-s1-low-8f8eb6,gpt6astra,low,sort_tracker__fix2,L0,bug fix,1.0,1.0,0.063794,1917,1237
+gpt2_generate-gpt52-L0-s0-low-27f7d4,gpt52,low,gpt2_generate,L0,write,0.9375,0.0,0.070686,712,4960
+pandas_cut__fix1-gpt41-L0-s1-def-4cad1f,gpt41,default,pandas_cut__fix1,L0,bug fix,0.5333,0.0,0.039778,9557,3879
+sortedlist_key__fix1-gpt52-L0-s0-low-e99f41,gpt52,low,sortedlist_key__fix1,L0,bug fix,0.8636,0.0,0.0523985,4046,3237
+numpy_quantile-gpt41-L2-s0-def-eb5b7f,gpt41,default,numpy_quantile,L2,write,0.2917,0.0,0.174832,112224,4478
+gpt2_generate-gpt41-L2-s1-def-00b666,gpt41,default,gpt2_generate,L2,write,0.625,0.0,0.170684,92954,6329
+gpt2_forward__fix1-gpt6astra-L2-s1-low-fb818a,gpt6astra,low,gpt2_forward__fix1,L2,bug fix,1.0,1.0,0.31011,21236,1955
+sortedlist_key-gpt41-XL-s0-def-169344,gpt41,default,sortedlist_key,XL,long context,0.9545,0.0,0.565288,246376,9067
+sort_tracker-gpt52-L0-s0-low-7701f1,gpt52,low,sort_tracker,L0,write,0.4706,0.0,0.10182375,4377,6726
+sortedlist_key-beam-L5-s0-medium-f9665a,beam,medium,sortedlist_key,L5,write,0.9545,0.0,0.02490475,57647,10493
+sortedlist_core__fix1-gpt41-L2-s1-def-a522f0,gpt41,default,sortedlist_core__fix1,L2,bug fix,1.0,1.0,0.03643,21971,3141
+sort_tracker-gpt52-AG-s0-low-de738e,gpt52,low,sort_tracker,AG,agentic,1.0,1.0,0.146587,167212,5409
+gpt2_forward__fix2-gpt41-L0-s0-def-52f444,gpt41,default,gpt2_forward__fix2,L0,bug fix,0.8667,0.0,0.021866,3049,1971
+gpt2_forward__fix1-beam-L0-s1-low-06fca3,beam,low,gpt2_forward__fix1,L0,bug fix,1.0,1.0,0.00281075,3163,2020
+gpt2_forward-gpt41-AG-s0-def-0c3b00,gpt41,default,gpt2_forward,AG,agentic,0.4667,0.0,0.12665,116113,3603
+pandas_cut-gpt41-L0-s1-def-c3f45e,gpt41,default,pandas_cut,L0,write,0.4667,0.0,0.014378,505,1671
+pandas_cut__fix1-gpt6astra-L2-s0-low-64bb4a,gpt6astra,low,pandas_cut__fix1,L2,bug fix,1.0,1.0,0.1334,8340,1000
+gpt2_forward__fix2-beam-L2-s1-low-1a7f4b,beam,low,gpt2_forward__fix2,L2,bug fix,1.0,1.0,0.0078225,21446,2461
+numpy_quantile-gpt6astra-L0-s1-low-5103e2,gpt6astra,low,numpy_quantile,L0,write,0.9167,0.0,0.08785,490,1659
+gpt2_forward-gpt52-L2-s0-low-8cfb35,gpt52,low,gpt2_forward,L2,write,1.0,1.0,0.099176,18728,4743
+gpt2_generate__fix1-beam-L2-s1-low-33f2d7,beam,low,gpt2_generate__fix1,L2,bug fix,1.0,1.0,0.0139525,46914,2224
+numpy_quantile__fix2-gpt52-L2-s0-low-ed46d7,gpt52,low,numpy_quantile__fix2,L2,bug fix,1.0,1.0,0.1149687,56258,1367
+sort_tracker__fix2-gpt41-L0-s0-def-7092ed,gpt41,default,sort_tracker__fix2,L0,bug fix,1.0,1.0,0.01342,1918,1198
+gpt2_generate-gpt41-L0-s0-def-05b923,gpt41,default,gpt2_generate,L0,write,0.5625,0.0,0.029634,713,3526
+pandas_cut__fix1-beam-L0-s0-low-312e19,beam,low,pandas_cut__fix1,L0,bug fix,1.0,1.0,0.00492775,5887,3456
+sort_tracker__fix1-beam-L0-s0-low-965f03,beam,low,sort_tracker__fix1,L0,bug fix,1.0,1.0,0.00203675,1959,1547
+sortedlist_key-beam-L0-s2-low-115804,beam,low,sortedlist_key,L0,write,0.8182,0.0,0.00651225,853,6299
+sort_tracker-gpt52-L5-s0-low-b1af9c,gpt52,low,sort_tracker,L5,write,1.0,1.0,0.105077,42532,3413
+gpt2_forward-beam-L2-s2-low-79b4c3,beam,low,gpt2_forward,L2,write,1.0,1.0,0.00800325,18761,3313
+numpy_quantile__fix1-gpt41-L0-s0-def-3967e1,gpt41,default,numpy_quantile__fix1,L0,bug fix,0.9583,0.0,0.0154,2028,1418
+sort_tracker-gpt6astra-L2-s1-low-30c983,gpt6astra,low,sort_tracker,L2,write,1.0,1.0,0.087127,11900,1504
+numpy_quantile-gpt6astra-AG-s0-low-ddbd94,gpt6astra,low,numpy_quantile,AG,agentic,1.0,1.0,0.166234,17078,1627
+sortedlist_core__fix2-gpt6astra-L2-s0-low-103912,gpt6astra,low,sortedlist_core__fix2,L2,bug fix,1.0,1.0,0.37476,22171,3061
+numpy_quantile__fix1-gpt52-L2-s0-low-40606a,gpt52,low,numpy_quantile__fix1,L2,bug fix,1.0,1.0,0.11599419999999999,56284,1437
+gpt2_forward-gpt6astra-L0-s1-low-12418d,gpt6astra,low,gpt2_forward,L0,write,1.0,1.0,0.13153,493,2532
+gpt2_forward-gpt41-AG-s1-def-b6db5c,gpt41,default,gpt2_forward,AG,agentic,0.8667,0.0,0.188772,226898,3448
+sortedlist_core__fix1-beam-L2-s0-low-cfe427,beam,low,sortedlist_core__fix1,L2,bug fix,1.0,1.0,0.0092475,21898,3773
+gpt2_generate-beam-XXL-s0-low-03a0aa,beam,low,gpt2_generate,XXL,long context,0.9375,0.0,0.14316675,552735,4983
+gpt2_forward-beam-L0-s2-low-5a5cf2,beam,low,gpt2_forward,L0,write,0.4667,0.0,0.00276675,535,2633
+sortedlist_core__fix2-gpt41-L2-s0-def-ec2b65,gpt41,default,sortedlist_core__fix2,L2,bug fix,1.0,1.0,0.068904,22172,3070
+gpt2_generate__fix1-gpt6astra-L0-s0-low-29af52,gpt6astra,low,gpt2_generate__fix1,L0,bug fix,1.0,1.0,0.12993,3218,1955
+gpt2_forward__fix2-beam-L0-s0-low-13115c,beam,low,gpt2_forward__fix2,L0,bug fix,1.0,1.0,0.003669,3220,2864
+sortedlist_key-gpt6astra-L0-s1-low-28a895,gpt6astra,low,sortedlist_key,L0,write,1.0,1.0,0.1636,820,3108
+gpt2_generate-gpt52-L5-s0-low-50d1a2,gpt52,low,gpt2_generate,L5,write,0.8125,0.0,0.2120559,115986,5559
+sort_tracker__fix2-beam-L0-s1-low-d47f09,beam,low,sort_tracker__fix2,L0,bug fix,1.0,1.0,0.001753,1936,1269
+sortedlist_core-beam-L5-s0-medium-4073c8,beam,medium,sortedlist_core,L5,write,0.96,0.0,0.02433025,57369,9988
+sort_tracker-beam-L0-s1-low-833782,beam,low,sort_tracker,L0,write,0.4706,0.0,0.00511275,535,4979
+sortedlist_core-beam-L0-s2-low-236ca2,beam,low,sortedlist_core,L0,write,0.84,0.0,0.00338775,575,3244
+gpt2_forward-gpt6astra-L2-s0-low-d1da6b,gpt6astra,low,gpt2_forward,L2,write,1.0,1.0,0.32128,18728,2680
+sortedlist_core-gpt52-XL-s0-low-a7ed04,gpt52,low,sortedlist_core,XL,long context,1.0,1.0,0.51353925,250459,5374
+numpy_quantile__fix2-beam-L0-s0-low-94a6d6,beam,low,numpy_quantile__fix2,L0,bug fix,1.0,1.0,0.00276725,2073,2249
+gpt2_generate__fix1-gpt41-L0-s1-def-ae2a13,gpt41,default,gpt2_generate__fix1,L0,bug fix,1.0,1.0,0.018982,3219,2144
+sort_tracker-nemotron-L0-s0-low-07a63d,nemotron,low,sort_tracker,L0,write,0.5294,0.0,0.0,3465,10892
+gpt2_forward-beam-L2-s1-low-48b0e7,beam,low,gpt2_forward,L2,write,0.9333,0.0,0.0238285,65190,7531
+pandas_cut-nemotron-L0-s0-low-00abd4,nemotron,low,pandas_cut,L0,write,0.0,0.0,0.0,56476,41504
+sortedlist_core-beam-L0-s1-low-cc197b,beam,low,sortedlist_core,L0,write,0.84,0.0,0.00375875,575,3615
+sortedlist_core__fix2-beam-L2-s1-low-7eccbc,beam,low,sortedlist_core__fix2,L2,bug fix,1.0,1.0,0.014343749999999999,44931,3111
+pandas_cut__fix2-gpt41-L2-s1-def-b23c06,gpt41,default,pandas_cut__fix2,L2,bug fix,1.0,1.0,0.025888,8368,1144
+gpt2_generate-gpt52-L0-s1-low-7ec660,gpt52,low,gpt2_generate,L0,write,1.0,1.0,0.13939975,6561,9137
+gpt2_forward-beam-AG-s1-low-9edf81,beam,low,gpt2_forward,AG,agentic,0.9333,0.0,0.0108045,32934,2571
+sort_tracker__fix1-beam-L2-s0-low-200466,beam,low,sort_tracker__fix1,L2,bug fix,1.0,1.0,0.00451325,13217,1209
+gpt2_generate-gpt41-L5-s0-def-bdfb29,gpt41,default,gpt2_generate,L5,write,0.4375,0.0,0.190022,115987,3036
+sortedlist_key__fix2-beam-L2-s1-low-8ed433,beam,low,sortedlist_key__fix2,L2,bug fix,0.9091,0.0,0.01139975,22387,5803
+sort_tracker-gpt6astra-L5-s0-low-6d50b1,gpt6astra,low,sort_tracker,L5,write,1.0,1.0,0.49882,42532,1470
+sortedlist_key-beam-L5-s1-medium-5ef38c,beam,medium,sortedlist_key,L5,write,0.9545,0.0,0.02433175,57647,9920
+sort_tracker__fix1-gpt6astra-L0-s0-low-30495e,gpt6astra,low,sort_tracker__fix1,L0,bug fix,1.0,1.0,0.08139,1929,1242
+gpt2_generate-gpt6astra-L0-s1-low-01a297,gpt6astra,low,gpt2_generate,L0,write,1.0,1.0,0.15892,712,3036
+sort_tracker__fix2-beam-L0-s0-low-0e4313,beam,low,sort_tracker__fix2,L0,bug fix,1.0,1.0,0.001744,1936,1260
+gpt2_generate__fix2-beam-L0-s0-low-3de462,beam,low,gpt2_generate__fix2,L0,bug fix,1.0,1.0,0.00280325,2793,2105
+gpt2_forward__fix1-gpt6astra-L0-s0-low-3de9cf,gpt6astra,low,gpt2_forward__fix1,L0,bug fix,1.0,1.0,0.12776,3001,1955
+numpy_quantile-gpt41-AG-s1-def-873b96,gpt41,default,numpy_quantile,AG,agentic,0.2917,0.0,0.100782,95359,2222
+sort_tracker-gpt41-L0-s1-def-869086,gpt41,default,sort_tracker,L0,write,0.4118,0.0,0.064578,9833,7198
+pandas_cut-gpt52-AG-s1-low-6ae5fc,gpt52,low,pandas_cut,AG,agentic,0.6667,0.0,0.1037295,5338,6742
+sortedlist_core-gpt6astra-XL-s0-low-3aaaab,gpt6astra,low,sortedlist_core,XL,long context,1.0,1.0,2.65719,250459,3052
+numpy_quantile__fix2-gpt52-L2-s1-low-f2095e,gpt52,low,numpy_quantile__fix2,L2,bug fix,1.0,1.0,0.0293643,56258,1358
+sortedlist_core-beam-L0-s0-low-da9508,beam,low,sortedlist_core,L0,write,0.84,0.0,0.00254075,575,2397
+pandas_cut-beam-AG-s0-low-57a4bb,beam,low,pandas_cut,AG,agentic,0.5333,0.0,0.01552125,49677,3102
+sortedlist_key-gpt52-L0-s0-low-940adc,gpt52,low,sortedlist_key,L0,write,0.7727,0.0,0.114079,820,8046
+pandas_cut-gpt6astra-AG-s1-low-e59dc7,gpt6astra,low,pandas_cut,AG,agentic,1.0,1.0,0.20584,26911,1476
+sortedlist_key-gpt6astra-AG-s1-low-e1d12f,gpt6astra,low,sortedlist_key,AG,agentic,1.0,1.0,0.18678,993,3537
+sort_tracker-gpt52-XL-s0-low-c116c3,gpt52,low,sort_tracker,XL,long context,1.0,1.0,0.435778,222056,3370
+gpt2_forward-gpt52-L5-s0-low-618e35,gpt52,low,gpt2_forward,L5,write,1.0,1.0,0.23792264999999999,115767,4554
+gpt2_generate__fix2-gpt6astra-L2-s1-low-b63e90,gpt6astra,low,gpt2_generate__fix2,L2,bug fix,1.0,1.0,0.144204,46427,1955
+sortedlist_core-gpt52-L2-s0-low-a9ff9f,gpt52,low,sortedlist_core,L2,write,1.0,1.0,0.112112,18728,5667
+numpy_quantile__fix2-gpt41-L2-s1-def-623cce,gpt41,default,numpy_quantile__fix2,L2,bug fix,0.9583,0.0,0.120086,56259,1282
+sortedlist_key__fix2-gpt6astra-L2-s1-low-cefcae,gpt6astra,low,sortedlist_key__fix2,L2,bug fix,1.0,1.0,0.176252,22425,3076
+gpt2_forward-gpt52-AG-s0-low-d48e9a,gpt52,low,gpt2_forward,AG,agentic,1.0,1.0,0.15536640000000002,126488,6749
+numpy_quantile-gpt41-L2-s1-def-ae6e3b,gpt41,default,numpy_quantile,L2,write,0.3333,0.0,0.047744,54748,2433
+sortedlist_key-beam-L2-s0-low-888071,beam,low,sortedlist_key,L2,write,0.9545,0.0,0.01312825,18929,8396
+sort_tracker-gpt41-L5-s1-def-8dd4cc,gpt41,default,sort_tracker,L5,write,1.0,1.0,0.040842,42533,2416
+sortedlist_core-beam-L2-s0-low-54d7f6,beam,low,sortedlist_core,L2,write,1.0,1.0,0.01056675,18651,5904
+sortedlist_core-beam-L2-s0-medium-f85276,beam,medium,sortedlist_core,L2,write,1.0,1.0,0.010643,18652,5980
+sortedlist_key-gpt52-XL-s0-low-6d66b2,gpt52,low,sortedlist_key,XL,long context,0.9545,0.0,0.55214425,246375,8642
+pandas_cut__fix1-gpt6astra-L0-s1-low-220234,gpt6astra,low,pandas_cut__fix1,L0,bug fix,1.0,1.0,0.051749,1722,1000
+sortedlist_key__fix1-gpt6astra-L2-s0-low-c70edd,gpt6astra,low,sortedlist_key__fix1,L2,bug fix,1.0,1.0,0.37538,22233,3061
+pandas_cut__fix1-gpt41-L2-s0-def-f12a6a,gpt41,default,pandas_cut__fix1,L2,bug fix,0.6667,0.0,0.058262,29667,3706
+numpy_quantile__fix1-gpt6astra-L2-s1-low-536622,gpt6astra,low,numpy_quantile__fix1,L2,bug fix,1.0,1.0,0.120711,56284,1288
+sortedlist_core__fix2-gpt41-L2-s1-def-d8569d,gpt41,default,sortedlist_core__fix2,L2,bug fix,1.0,1.0,0.070056,22172,3214
+sortedlist_key__fix1-beam-L2-s1-low-12c996,beam,low,sortedlist_key__fix1,L2,bug fix,0.8636,0.0,0.00945225,22145,3916
+numpy_quantile__fix2-beam-L0-s1-low-e8802b,beam,low,numpy_quantile__fix2,L0,bug fix,1.0,1.0,0.00220425,2073,1686
+sort_tracker__fix1-gpt41-L2-s1-def-b7cc3a,gpt41,default,sort_tracker__fix1,L2,bug fix,1.0,1.0,0.016718,13331,1229
+sortedlist_key-beam-L5-s2-low-a8ba92,beam,low,sortedlist_key,L5,write,0.9545,0.0,0.0240205,57646,9609
+gpt2_forward-beam-L2-s0-medium-91bef5,beam,medium,gpt2_forward,L2,write,0.9333,0.0,0.0091995,18762,4509
+gpt2_forward-gpt6astra-XL-s0-low-b8e561,gpt6astra,low,gpt2_forward,XL,long context,1.0,1.0,2.24177,211077,2620
+pandas_cut-beam-L5-s1-low-cbfd2f,beam,low,pandas_cut,L5,write,0.0,0.0,0.10646425,391481,8594
+sortedlist_core-gpt6astra-L2-s1-low-60f093,gpt6astra,low,sortedlist_core,L2,write,1.0,1.0,0.153405,18728,2693
+gpt2_forward__fix2-beam-L0-s1-low-9a69e1,beam,low,gpt2_forward__fix2,L0,bug fix,0.8667,0.0,0.004894,3220,4089
+sortedlist_key__fix2-gpt41-L0-s1-def-9cfe36,gpt41,default,sortedlist_key__fix2,L0,bug fix,0.9091,0.0,0.030406,4239,3509
+sort_tracker__fix2-beam-L2-s0-low-386b69,beam,low,sort_tracker__fix2,L2,bug fix,1.0,1.0,0.0046675,13194,1369
+numpy_quantile__fix2-beam-L2-s1-low-3e2c24,beam,low,numpy_quantile__fix2,L2,bug fix,1.0,1.0,0.0163685,58290,1796
+gpt2_generate-beam-AG-s0-low-3ad307,beam,low,gpt2_generate,AG,agentic,0.5,0.0,0.00736075,12483,4240
+sortedlist_key-beam-L5-s0-low-3fe917,beam,low,sortedlist_key,L5,write,0.9545,0.0,0.0240145,57646,9603
+gpt2_generate-gpt6astra-AG-s1-low-fc9325,gpt6astra,low,gpt2_generate,AG,agentic,1.0,1.0,0.1746,885,3315
+sort_tracker-gpt41-L2-s0-def-c5dbf1,gpt41,default,sort_tracker,L2,write,0.5882,0.0,0.042738,11901,2367
+gpt2_forward-beam-L5-s1-low-6af27e,beam,low,gpt2_forward,L5,write,0.5333,0.0,0.0327245,115262,3909
+sortedlist_key-beam-AG-s1-low-faf632,beam,low,sortedlist_key,AG,agentic,0.0,0.0,0.0131855,47846,1224
+gpt2_forward-gpt6astra-AG-s0-low-97d25b,gpt6astra,low,gpt2_forward,AG,agentic,1.0,1.0,0.14746,666,2816
+sort_tracker__fix1-gpt52-L0-s0-low-8a2835,gpt52,low,sort_tracker__fix1,L0,bug fix,0.5294,0.0,0.03504375,1929,2262
+sortedlist_key-gpt6astra-L5-s1-low-2276d7,gpt6astra,low,sortedlist_key,L5,write,1.0,1.0,0.255573,57196,3967
+sort_tracker-beam-L2-s0-low-4190d5,beam,low,sort_tracker,L2,write,1.0,1.0,0.00601025,11793,3062
+sort_tracker-beam-XL-s0-low-750414,beam,low,sort_tracker,XL,long context,1.0,1.0,0.1153975,447114,3619
+sortedlist_key-nemotron-L0-s0-low-7cf4cb,nemotron,low,sortedlist_key,L0,write,0.7727,0.0,0.0,16612,27372
+sortedlist_key-beam-L2-s1-low-3ffb8c,beam,low,sortedlist_key,L2,write,0.9545,0.0,0.01426525,18929,9533
+gpt2_generate-beam-XL-s0-low-0f3807,beam,low,gpt2_generate,XL,long context,0.9375,0.0,0.059428,210840,6718
+sortedlist_core__fix1-gpt6astra-L0-s1-low-587ba1,gpt6astra,low,sortedlist_core__fix1,L0,bug fix,1.0,1.0,0.15681,3783,3060
+numpy_quantile-gpt52-L5-s0-low-baf4b8,gpt52,low,numpy_quantile,L5,write,0.3333,0.0,0.27163815,160065,5457
+gpt2_forward-gpt6astra-L5-s1-low-fc0550,gpt6astra,low,gpt2_forward,L5,write,1.0,1.0,0.253544,115767,2755
+numpy_quantile-gpt52-L2-s1-low-929866,gpt52,low,numpy_quantile,L2,write,0.4167,0.0,0.08273965,54747,5129
+gpt2_forward__fix1-gpt6astra-L2-s0-low-c950b0,gpt6astra,low,gpt2_forward__fix1,L2,bug fix,1.0,1.0,0.31011,21236,1955
+sortedlist_key__fix2-beam-L2-s0-low-ab3dc9,beam,low,sortedlist_key__fix2,L2,bug fix,0.9091,0.0,0.01478675,22387,9190
+sortedlist_core-gpt41-L5-s0-def-9f0644,gpt41,default,sortedlist_core,L5,write,0.96,0.0,0.20578400000000002,119808,10915
+sortedlist_key-gpt52-L2-s0-low-d23e70,gpt52,low,sortedlist_key,L2,write,0.9545,0.0,0.14939225,19007,8295
+gpt2_forward__fix1-gpt52-L0-s1-low-fb855c,gpt52,low,gpt2_forward__fix1,L0,bug fix,1.0,1.0,0.03774015,3001,2623
+numpy_quantile__fix1-gpt41-L2-s0-def-56fd69,gpt41,default,numpy_quantile__fix1,L2,bug fix,1.0,1.0,0.122858,56285,1286
+sortedlist_core-gpt41-L5-s2-def-ba7a9a,gpt41,default,sortedlist_core,L5,write,0.8,0.0,0.074764,56918,5748
+sortedlist_core-gpt52-L0-s0-low-7293cd,gpt52,low,sortedlist_core,L0,write,0.96,0.0,0.06100675,541,4290
+sortedlist_core__fix2-gpt52-L2-s1-low-726cb9,gpt52,low,sortedlist_core__fix2,L2,bug fix,1.0,1.0,0.04927125,22171,3124
+gpt2_generate-beam-L2-s1-low-9e0337,beam,low,gpt2_generate,L2,write,0.875,0.0,0.045788,144456,9674
+numpy_quantile__fix1-gpt52-L0-s1-low-ce307c,gpt52,low,numpy_quantile__fix1,L0,bug fix,1.0,1.0,0.02692445,2027,1857

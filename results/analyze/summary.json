@@ -1,0 +1,14 @@
+{
+  "n_runs": 549,
+  "generated": "2026-11-02T22:21:26",
+  "models": [
+    "beam",
+    "gpt41",
+    "gpt52",
+    "gpt6astra",
+    "nemotron"
+  ],
+  "total_completion_tokens": 2297982,
+  "total_prompt_tokens": 32904108,
+  "overall_success": 0.5245901639344263
+}

@@ -1,0 +1,35 @@
+{
+ "id": "numpy_quantile",
+ "title": "Mini np.quantile with all interpolation methods",
+ "repo": "numpy",
+ "familiarity": "well known library, obscure internals",
+ "context": {
+  "L2": [
+   "numpy/lib/_function_base_impl.py"
+  ],
+  "L5": [
+   "numpy/lib/_function_base_impl.py",
+   "numpy/lib/_nanfunctions_impl.py",
+   "numpy/lib/_utils_impl.py",
+   "numpy/lib/_arraysetops_impl.py",
+   "numpy/lib/_histograms_impl.py",
+   "numpy/lib/_shape_base_impl.py",
+   "numpy/lib/_index_tricks_impl.py",
+   "numpy/lib/_stride_tricks_impl.py",
+   "numpy/lib/_twodim_base_impl.py",
+   "numpy/lib/_polynomial_impl.py",
+   "numpy/lib/_arraypad_impl.py",
+   "numpy/lib/_type_check_impl.py"
+  ]
+ },
+ "integrity": {
+  "banned_calls": [
+   "numpy.quantile",
+   "numpy.percentile",
+   "numpy.nanquantile",
+   "numpy.nanpercentile",
+   "numpy.median",
+   "numpy.lib._function_base_impl"
+  ]
+ }
+}

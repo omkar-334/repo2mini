@@ -1,0 +1,27 @@
+[project]
+name = "repo2mini"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "gradio>=6.31.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "openai>=3.42.0",
+    "plotly>=7.1.0",
+    "python-dotenv>=1.2.4",
+    "sortedcontainers>=2.4.0",
+    "tabulate>=0.10.0",
+    "torch>=2.15.0",
+    "trackers>=2.6.1",
+    "trackio>=0.44.0",
+    "transformers>=5.22.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

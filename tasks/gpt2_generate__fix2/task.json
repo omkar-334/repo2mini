@@ -1,0 +1,29 @@
+{
+ "id": "gpt2_generate__fix2",
+ "title": "Fix a bug in Mini GPT-2 with KV cache and greedy generation",
+ "repo": "transformers",
+ "familiarity": "famous",
+ "context": {
+  "L2": [
+   "src/transformers/models/gpt2/modeling_gpt2.py",
+   "src/transformers/models/gpt2/configuration_gpt2.py",
+   "src/transformers/pytorch_utils.py",
+   "src/transformers/activations.py",
+   "src/transformers/cache_utils.py"
+  ],
+  "L5": [
+   "src/transformers/models/gpt2/modeling_gpt2.py",
+   "src/transformers/models/gpt2/configuration_gpt2.py",
+   "src/transformers/pytorch_utils.py",
+   "src/transformers/activations.py",
+   "src/transformers/cache_utils.py",
+   "src/transformers/generation/utils.py",
+   "src/transformers/models/opt/modeling_opt.py",
+   "src/transformers/models/llama/modeling_llama.py",
+   "src/transformers/models/bert/modeling_bert.py",
+   "src/transformers/modeling_utils.py"
+  ]
+ },
+ "fix_of": "gpt2_generate",
+ "bug": 2
+}

@@ -1,0 +1,6 @@
+gradio
+pandas
+tabulate
+python-dotenv
+openai
+trackio

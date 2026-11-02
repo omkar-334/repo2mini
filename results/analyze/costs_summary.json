@@ -1,0 +1,119 @@
+{
+  "prices_per_1M_tokens": {
+    "nemotron": {
+      "input": 0.0,
+      "cached": 0.0,
+      "output": 0.0,
+      "source": "openrouter free tier (nvidia/nemotron-3-ultra-550b-a55b:free)"
+    },
+    "beam": {
+      "input": 0.25,
+      "cached": 0.25,
+      "output": 1.0,
+      "source": "openrouter.ai/reflection/beam-1.0-501b-a23b (listing, not billed: free beta)"
+    },
+    "gpt41": {
+      "input": 2.0,
+      "cached": 0.5,
+      "output": 8.0,
+      "source": "developers.openai.com/api/docs/pricing"
+    },
+    "gpt52": {
+      "input": 1.75,
+      "cached": 0.175,
+      "output": 14.0,
+      "source": "developers.openai.com/api/docs/pricing"
+    },
+    "gpt6astra": {
+      "input": 10.0,
+      "cached": 1.0,
+      "output": 50.0,
+      "long_threshold": 272000,
+      "long_input": 20.0,
+      "long_cached": 2.0,
+      "long_output": 75.0,
+      "source": "developers.openai.com/api/docs/pricing"
+    }
+  },
+  "total_cost_usd": 77.51,
+  "by_model": [
+    {
+      "model": "beam",
+      "effort": "low",
+      "runs": 139,
+      "total_cost": 3.7774,
+      "pass_rate": 0.8009,
+      "full_successes": 56.0,
+      "prompt_tokens": 91539.6043,
+      "completion_tokens": 4290.3165,
+      "cost_per_run": 0.0272,
+      "cost_per_full_success": 0.0675,
+      "pass_points_per_dollar": 29.4711
+    },
+    {
+      "model": "beam",
+      "effort": "medium",
+      "runs": 24,
+      "total_cost": 0.5072,
+      "pass_rate": 0.8907,
+      "full_successes": 5.0,
+      "prompt_tokens": 54225.7917,
+      "completion_tokens": 7576.7083,
+      "cost_per_run": 0.0211,
+      "cost_per_full_success": 0.1014,
+      "pass_points_per_dollar": 42.1466
+    },
+    {
+      "model": "gpt41",
+      "effort": "default",
+      "runs": 132,
+      "total_cost": 14.2696,
+      "pass_rate": 0.772,
+      "full_successes": 45.0,
+      "prompt_tokens": 57367.8485,
+      "completion_tokens": 3705.1288,
+      "cost_per_run": 0.1081,
+      "cost_per_full_success": 0.3171,
+      "pass_points_per_dollar": 7.1412
+    },
+    {
+      "model": "gpt52",
+      "effort": "low",
+      "runs": 120,
+      "total_cost": 13.745,
+      "pass_rate": 0.8825,
+      "full_successes": 65.0,
+      "prompt_tokens": 51623.725,
+      "completion_tokens": 4612.7917,
+      "cost_per_run": 0.1145,
+      "cost_per_full_success": 0.2115,
+      "pass_points_per_dollar": 7.7043
+    },
+    {
+      "model": "gpt6astra",
+      "effort": "low",
+      "runs": 120,
+      "total_cost": 45.2073,
+      "pass_rate": 0.9885,
+      "full_successes": 115.0,
+      "prompt_tokens": 38087.1083,
+      "completion_tokens": 2186.4,
+      "cost_per_run": 0.3767,
+      "cost_per_full_success": 0.3931,
+      "pass_points_per_dollar": 2.6238
+    },
+    {
+      "model": "nemotron",
+      "effort": "low",
+      "runs": 14,
+      "total_cost": 0.0,
+      "pass_rate": 0.6036,
+      "full_successes": 2.0,
+      "prompt_tokens": 38630.5714,
+      "completion_tokens": 15343.3571,
+      "cost_per_run": 0.0,
+      "cost_per_full_success": 0.0,
+      "pass_points_per_dollar": Infinity
+    }
+  ]
+}

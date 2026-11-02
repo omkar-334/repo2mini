@@ -1,0 +1,17 @@
+{
+  "cells": 273,
+  "rows_won_by_model": {
+    "gpt6astra": 48,
+    "gpt52": 18,
+    "nemotron": 3,
+    "beam": 14,
+    "gpt41": 6
+  },
+  "models_with_multiple_efforts": {
+    "beam": 2,
+    "gpt41": 1,
+    "gpt52": 1,
+    "gpt6astra": 1,
+    "nemotron": 1
+  }
+}
